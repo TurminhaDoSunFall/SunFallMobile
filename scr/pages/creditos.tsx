@@ -2,7 +2,7 @@ import React from "react";
 import { Central } from "../styles/credito";
 import { Fundolarama, Tituloroxo , Menu} from "../styles/reutilizar";
 
-export default function creditos(){
+export default function Creditos(){
     return (
         <Fundolarama>
             <Menu></Menu>
