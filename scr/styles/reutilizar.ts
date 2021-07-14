@@ -7,14 +7,14 @@ export const Fundoamaro = styled.View`
     flex: 1;
     align-items: center;
     justify-content: center;
-    background: linear-gradient(180deg, #FEDF50 0%, #FF7F27 48.02%, #80002B 100%), #FF7F27;
+    background: linear-gradient(180deg, #FEDF50 0%, #FF7F27 48.02%, #80002B 100%);
 `
 //Fundo roxo em cima e amarelo em baixo
 export const Fundoroxama = styled.View`
     flex: 1;
     align-items: center;
     justify-content: center;
-    background: linear-gradient(180deg, #80002B 0%, #FF7F27 48.02%, #FEDF50 100%), #FFFFFF;
+    background: linear-gradient(180deg, #80002B 0%, #FF7F27 48.02%, #FEDF50 100%);
 `
 // Fundo laranja em cima e amarelo em baixo
 export const Fundolarama = styled.View`

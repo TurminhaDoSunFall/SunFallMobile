@@ -1,2 +1,2 @@
-export {default as Creditos} from "./creditos";
-export {default as Perfil} from "./perfil";
+export {default as Creditos} from "./Creditos";
+export {default as Perfil} from "./Perfil";

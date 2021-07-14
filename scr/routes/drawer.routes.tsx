@@ -7,11 +7,9 @@ const Drawer = createDrawerNavigator();
 
 export default function App() {
   return (
-      <Drawer.Navigator initialRouteName="Escolha">
-        <Drawer.Screen name="LOGIN" component={===} />
+      <Drawer.Navigator >
         <Drawer.Screen name="PERFIL" component={Perfil} />
-        <Drawer.Screen name="Login" componet={===} />
-        <Drawer.screen name="CRÉDITOS" component={Creditos} />
+        <Drawer.Screen name="CRÉDITOS" component={Creditos} />
       </Drawer.Navigator>
   );
 }
