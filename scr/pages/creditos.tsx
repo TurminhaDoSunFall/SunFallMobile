@@ -5,7 +5,7 @@ import { Fundolarama, Tituloroxo , Menu} from "../styles/reutilizar";
 export default function Creditos(){
     return (
         <Fundolarama>
-            <Menu></Menu>
+            <Menu />
             <Tituloroxo>Créditos</Tituloroxo>
             <Tituloroxo>
                 <Central>ISIS S. P.
