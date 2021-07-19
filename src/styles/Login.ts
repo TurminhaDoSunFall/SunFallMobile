@@ -10,7 +10,14 @@ export const Container = styled.View`
 export const Menu = styled.View`
   background-color: #80002B;
   height: 85px;
+<<<<<<< HEAD
 `
+=======
+  width: 100%;
+`
+
+
+>>>>>>> 3911f45b9b001c763086d7958443cc998d35d839
 export const Title = styled.Text`
   font-family: Courier New; 
   font-size: 24px;
@@ -69,5 +76,9 @@ export const TextInput = styled.TextInput`
 export const Rodape = styled.View`
   background-color: #80002B;
   height: 65px;
+<<<<<<< HEAD
+=======
+  width: 100%;
+>>>>>>> 3911f45b9b001c763086d7958443cc998d35d839
   position: absolute;
 `
