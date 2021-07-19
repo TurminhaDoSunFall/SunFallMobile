@@ -10,8 +10,9 @@ import {
   TitleCadastrar,
 } from "../styles/Cadastrar";
 import { Button } from "../components";
+import { BotaoReportarProblema } from "../styles/Feedback";
 
-export default function Cadastrar() {
+export default function Feedback() {
   const navigation = useNavigation();
   function handleHome() {
     navigation.navigate("HomeStack");
@@ -19,18 +20,14 @@ export default function Cadastrar() {
   return (
     <Container>
       <Menu></Menu>
-        <TitleCadastrar>SIGN-UP</TitleCadastrar>
+        <TitleCadastrar>Reporte um erro que você encontrou utilizando o site SunFall:</TitleCadastrar>
         <FormRow>
-          <Label>Nome:</Label>
-          <TextInput placeholder=""></TextInput>
+          <Label>Erro:</Label>
+          <TextInput placeholder="Qual é o erro em questão? "></TextInput>
         </FormRow>
         <FormRow>
-          <Label>E-mail:</Label>
-          <TextInput placeholder=""></TextInput>
-        </FormRow>
-        <FormRow>
-          <Label>Senha: </Label>
-          <TextInput placeholder=""></TextInput>
+          <Label>Descrição do Erro</Label>
+          <BotaoReportarProblema placeholder="Descreva o erro que você encontrou, relatando cada detalhe e(opcional) possíveis soluções para o devido problema."></BotaoReportarProblema>
         </FormRow>
         <Button title="Submit" onPress={handleHome} />
       <Rodape></Rodape>
