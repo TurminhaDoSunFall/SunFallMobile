@@ -8,7 +8,6 @@ export const Container = styled.View`
 `
 
 export const TitleEntrar = styled.Text`
-  font-family: Courier New; 
   font-size: 24px;
   color: black;
   font-weight: 500;
@@ -16,7 +15,7 @@ export const TitleEntrar = styled.Text`
   text-align: center;
 `
 export const TitleCadastrar = styled.Text`
-  font-family: Courier New; 
+   
   font-size: 24px;
   color: black;
   font-weight: 500;

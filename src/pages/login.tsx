@@ -13,8 +13,8 @@ import { Button } from "../components";
 
 export default function Login() {
   const navigation = useNavigation();
-  function handleHome() {
-    navigation.navigate("HomeStack");
+  function handlePerfil() {
+    navigation.navigate("Perfil");
   }
   return (
     <Container>
@@ -28,7 +28,7 @@ export default function Login() {
           <Label>Senha: </Label>
           <TextInput placeholder=""></TextInput>
         </FormRow>
-        <Button title="Submit" onPress={handleHome} />
+        <Button title="Submit" onPress={handlePerfil} />
         <Rodape></Rodape>
     </Container>
   );

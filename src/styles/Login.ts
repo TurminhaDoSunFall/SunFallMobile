@@ -10,16 +10,8 @@ export const Container = styled.View`
 export const Menu = styled.View`
   background-color: #80002B;
   height: 85px;
-<<<<<<< HEAD
 `
-=======
-  width: 100%;
-`
-
-
->>>>>>> 3911f45b9b001c763086d7958443cc998d35d839
 export const Title = styled.Text`
-  font-family: Courier New; 
   font-size: 24px;
   color: black;
   font-weight: 500;
@@ -30,7 +22,7 @@ export const Title = styled.Text`
 export const TitleLogin = styled.Text`
   font-size: 18px;
   color: black;
-  font-family: Courier New; 
+   
   padding: 5px;
   background-color: #FEDF50;
   border-radius: 30px;
@@ -49,7 +41,6 @@ export const FormRow = styled.View`
 `
 
 export const Label = styled.Text`
-  font-family: Courier New; 
   font-size: 18px;
   color: black;
   padding: 5px;
@@ -62,7 +53,7 @@ export const Label = styled.Text`
 `
 
 export const TextInput = styled.TextInput`
-  font-family: Courier New; 
+   
   font-size: 18px;
   color: black;
   padding: 5px;
@@ -76,9 +67,5 @@ export const TextInput = styled.TextInput`
 export const Rodape = styled.View`
   background-color: #80002B;
   height: 65px;
-<<<<<<< HEAD
-=======
-  width: 100%;
->>>>>>> 3911f45b9b001c763086d7958443cc998d35d839
   position: absolute;
 `
