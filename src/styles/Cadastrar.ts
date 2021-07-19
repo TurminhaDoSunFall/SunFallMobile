@@ -8,7 +8,7 @@ export const Container = styled.View`
 `
 
 export const Menu = styled.View`
-  background-color: #FF7F27;
+  background-color: #80002B;
   height: 85px;
   width: 100%;
 `
@@ -16,7 +16,7 @@ export const Menu = styled.View`
 export const Rodape = styled.View`
   background-color: #80002B;
   height: 65px;
-  width: 100%;
+  max-width: max-content;
   position: absolute;
 `
 

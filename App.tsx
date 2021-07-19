@@ -1,4 +1,4 @@
-import Routes from "./scr/routes";
+import Routes from "./src/routes";
 import React from "react";
 
 export default function App() {
