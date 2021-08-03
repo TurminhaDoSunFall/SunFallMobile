@@ -6,37 +6,34 @@ import {
   Rodape,
   FormRow,
   Label,
-  TitlePerfil,
-  TextShow,
-} from "../styles/Perfil";
+  TextInput,
+  TitleCadastrar,
+} from "../styles/Cadastrar";
 import { Button } from "../components";
 
-export default function Perfil() {
+export default function Cadastrar() {
   const navigation = useNavigation();
   function handleHome() {
     navigation.navigate("HomeStack");
   }
   return (
     <Container>
-      <Menu/>
-        <TitlePerfil>PERFIL</TitlePerfil>
+      <Menu></Menu>
+        <TitleCadastrar>SIGN-UP</TitleCadastrar>
         <FormRow>
           <Label>Nome:</Label>
-          <TextShow>Ricardo Almeida</TextShow>
+          <TextInput placeholder=""></TextInput>
         </FormRow>
         <FormRow>
           <Label>E-mail:</Label>
-          <TextShow>Ricardo_Almeida578@gmail.com</TextShow>
+          <TextInput placeholder=""></TextInput>
         </FormRow>
         <FormRow>
-          <Label>Nº de uplaods</Label>
-          <TextShow>4732</TextShow>
+          <Label>Senha: </Label>
+          <TextInput placeholder=""></TextInput>
         </FormRow>
-        <FormRow>
-          <Label>Localização</Label>
-          <TextShow>Panamá</TextShow>
-        </FormRow>
-      <Rodape/>
+        <Button title="Submit" onPress={handleHome} />
+      <Rodape></Rodape>
     </Container>
   );
 }
