@@ -7,19 +7,6 @@ export const Container = styled.View`
   justify-content: center;
 `
 
-export const Menu = styled.View`
-  background-color: #FF7F27;
-  height: 85px;
-  width: 100%;
-`
-
-export const Rodape = styled.View`
-  background-color: #80002B;
-  height: 65px;
-  width: 100%;
-  position: absolute;
-`
-
 export const Title = styled.Text`
   font-size: 24px;
   color: black;
