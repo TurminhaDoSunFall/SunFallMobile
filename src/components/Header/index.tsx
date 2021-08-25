@@ -7,7 +7,7 @@ export default function Header({ image }: HeaderProps) {
   return (
     <HeaderStyle>
       <HeaderImage1>
-        <Image source={image} />
+        <Image source={../assets/logo.png} />
       </HeaderImage1>
     </HeaderStyle>
   );

@@ -13,7 +13,7 @@ export default function Escolha() {
   }
   return (
     <Container>
-        <Header image={require("../../assets/logo 4.png")}/> 
+        <Header image={require("../../assets/logo.png")}/> 
         <ButtonEscolha title="LOG-IN" onPress={handleLogin} />
         <ButtonEscolha title="CADASTRE-SE" onPress={handleCadastrar} />
     </Container>

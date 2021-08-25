@@ -1,24 +1,19 @@
 import React from "react";
 import { useNavigation } from "@react-navigation/core";
-import {
-  Container,
-  Menu,
-  Rodape,
-  FormRow,
-  Label,
-  TextInput,
-  TitleCadastrar,
-} from "../styles/Cadastrar";
-import { Button } from "../components";
+import { Container, FormRow, Label, TextInput, TitleCadastrar } from "../styles/Cadastrar";
+import { Button, Header } from "../components";
+import LoginRoute from "../routes/login.route";
+import Footer from "../components/Footer";
+
 
 export default function Cadastrar() {
   const navigation = useNavigation();
-  function handleHome() {
-    navigation.navigate("HomeStack");
+  function Login() {
+    navigation.navigate("Login");
   }
   return (
     <Container>
-      <Menu></Menu>
+      <Header></Header>
         <TitleCadastrar>SIGN-UP</TitleCadastrar>
         <FormRow>
           <Label>Nome:</Label>
@@ -32,8 +27,8 @@ export default function Cadastrar() {
           <Label>Senha: </Label>
           <TextInput placeholder=""></TextInput>
         </FormRow>
-        <Button title="Submit" onPress={handleHome} />
-      <Rodape></Rodape>
+        <Button title="Submit" onPress={Login} />
+      <Footer />
     </Container>
   );
 }
