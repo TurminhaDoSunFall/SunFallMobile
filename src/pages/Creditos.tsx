@@ -2,14 +2,16 @@ import React from "react";
 import { useNavigation } from "@react-navigation/core";
 import { Container, Menu, FormRow, Label, TitleCreditos } from "../styles/Creditos";
 import { Fundoama } from "../styles/reutilizar";
+import { Header , Rodape } from "../components";
 
 export default function Creditos() {
   const navigation = useNavigation();
-  function handleHome() {
-    navigation.navigate("Perfil");
+  function App() {
+    navigation.navigate("App");
   }
   return (
     <Container>
+      <Header/>
       <Fundoama>
         <Menu/>
         <TitleCreditos>CRÉDITOS</TitleCreditos>
