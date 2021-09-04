@@ -11,10 +11,18 @@ import {
 } from "../styles/Login";
 import { Button } from "../components";
 
-export default function Login() {
-  const navigation = useNavigation();
+export default function Login({navigation}: LoginTypes) {
+  
   function handlePerfil() {
     navigation.navigate("Perfil");
+  }
+
+  function handleEscolha() {
+    navigation.navigate("Escolha");
+  }
+
+  function handleCadastrar() {
+    navigation.navigate("Cadastrar");
   }
   return (
     <Container>

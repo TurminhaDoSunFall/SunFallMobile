@@ -11,11 +11,11 @@ import {
 } from "../styles/Cadastrar";
 import { Button } from "../components";
 import { BotaoReportarProblema } from "../styles/Feedback";
+import { CFCTypes } from "../types/ScreenStack.types";
 
-export default function Feedback() {
-  const navigation = useNavigation();
-  function handleHome() {
-    navigation.navigate("HomeStack");
+export default function Creditos({navigation}: CFCTypes) {
+  function handleGaveta() {
+    navigation.navigate("Gaveta");
   }
   return (
     <Container>

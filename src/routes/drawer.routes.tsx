@@ -5,7 +5,7 @@ import { Creditos , Escolha, Feedback, Perfil , Galeria, MinhaGaleria, CadastroF
 
 const Drawer = createDrawerNavigator();
 
-export default function App() {
+export default function Gaveta() {
   return (
       <Drawer.Navigator
         screenOptions={{

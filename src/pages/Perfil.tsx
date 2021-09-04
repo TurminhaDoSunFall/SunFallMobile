@@ -10,11 +10,15 @@ import {
   TextShow,
 } from "../styles/Perfil";
 import { Button } from "../components";
+import { PerfilTypes } from "../types/ScreenStack.types";
+import { LoginTypes } from "../types/ScreenStack.types";
 
-export default function Perfil() {
-  const navigation = useNavigation();
-  function handleHome() {
-    navigation.navigate("HomeStack");
+export default function Perfil({navigation}: PerfilTypes) {
+  function handleLogin() {
+    navigation.navigate("Login");
+  }
+  function handleGaveta() {
+    navigation.navigate("Gaveta");
   }
   return (
     <Container>
