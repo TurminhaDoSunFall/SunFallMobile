@@ -6,8 +6,7 @@ import LoginRoute from "../routes/login.route";
 import Footer from "../components/Footer";
 
 
-export default function Cadastrar() {
-  const navigation = useNavigation();
+export default function Creditos({navigation}: CFCTypes) {
   function Login() {
     navigation.navigate("Login");
   }
