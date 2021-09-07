@@ -13,7 +13,7 @@ export type LoginTypes = {
   navigation: LoginScreenNavigationProp
 }
 
-// Perfil
+//PerfilStack
 export type PerfilStackParamList = {
   Gaveta: undefined
   Login: undefined
@@ -23,7 +23,7 @@ export type PerfilTypes = {
   navigation: PerfilScreenNavigationProp
 }
 
-// Confug Feedbak e Créditos 
+//CFCStack
 export type CFCStackParamList = {
   Gaveta: undefined
 }
@@ -32,7 +32,7 @@ export type CFCTypes = {
   navigation: CFCScreenNavigationProp
 }
 
-// Minha Galeria
+//MinhaGaleriaStack
 export type MinhaGaleriaStackParamList = {
   Gaveta: undefined
   Editar: undefined
@@ -43,12 +43,24 @@ export type MinhaGaleriaTypes = {
   navigation: MinhaGaleriaScreenNavigationProp
 }
 
-// Feedback
+//FeedbackStack
 export type FeedbackStackParamList = {
   Gaveta: undefined
   Feedback: undefined
 }
+
 type FeedbackScreenNavigationProp = StackNavigationProp<FeedbackStackParamList>
 export type FeedbackTypes = {
   navigation: FeedbackScreenNavigationProp
+}
+
+//EditareCadastroFotoStack
+export type EditareCadastroFotoStackParamList = {
+  Gaveta: undefined
+  MinhaGaleria: undefined
+}
+
+type EditareCadastroFotoScreenNavigationProp = StackNavigationProp<EditareCadastroFotoStackParamList>
+export type EditareCadastroFotoTypes = {
+  navigation: EditareCadastroFotoScreenNavigationProp
 }
