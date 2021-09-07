@@ -7,7 +7,7 @@ export default function Header({ image }: HeaderProps) {
   return (
     <HeaderStyle>
       <HeaderImage1>
-        <Image source={../assets/logo.png} />
+        <Image source={require("../../assets/logo.png")}/>
       </HeaderImage1>
     </HeaderStyle>
   );
