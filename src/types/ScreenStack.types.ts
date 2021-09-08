@@ -1,7 +1,6 @@
 import { StackNavigationProp } from "@react-navigation/stack"
 
 
-
 export type CadastrarStackParamList = {
   Escolha: undefined
   Gaveta: undefined
@@ -11,17 +10,6 @@ type CadastrarScreenNavigationProp = StackNavigationProp<CadastrarStackParamList
 export type CadastrarTypes = {
   navigation: CadastrarScreenNavigationProp
 }
-
-
-export type CadastroFotoStackParamList = {
-  MinhaGaleria: undefined
-  Gaveta: undefined
-}
-type CadastroFotoScreenNavigationProp = StackNavigationProp<CadastroFotoStackParamList>
-export type CadastroFotoTypes = {
-  navigation: CadastroFotoScreenNavigationProp
-}
-
 
 
 //creditos feedback  config 
@@ -34,7 +22,6 @@ export type CFCTypes = {
 }
 
 
-
 export type DetalhesStackParamList = {
   Galeria: undefined
   Gaveta: undefined
@@ -45,21 +32,15 @@ export type DetalhesTypes = {
 }
 
 
-
-
-
-export type EditarStackParamList = {
-  MinhaGaleria: undefined
+//EditareCadastroFotoStack
+export type EditareCadastroFotoStackParamList = {
   Gaveta: undefined
+  MinhaGaleria: undefined
 }
-type EditarScreenNavigationProp = StackNavigationProp<EditarStackParamList>
-export type EditarTypes = {
-
-  navigation: EditarScreenNavigationProp
+type EditareCadastroFotoScreenNavigationProp = StackNavigationProp<EditareCadastroFotoStackParamList>
+export type EditareCadastroFotoTypes = {
+  navigation: EditareCadastroFotoScreenNavigationProp
 }
-
-
-
 
 export type GaleriaStackParamList = {
   Gaveta: undefined
@@ -68,7 +49,6 @@ type GaleriaScreenNavigationProp = StackNavigationProp<GaleriaStackParamList>
 export type GaleriaTypes = {
   navigation: GaleriaScreenNavigationProp
 }
-
 
 
 // Login Stack
@@ -85,8 +65,6 @@ export type LoginTypes = {
 }
 
 
-
-
 export type MinhaGaleriaStackParamList = {
   Gaveta: undefined
 }
@@ -94,8 +72,6 @@ type MinhaGaleriaScreenNavigationProp = StackNavigationProp<MinhaGaleriaStackPar
 export type MinhaGaleriaTypes = {
   navigation: MinhaGaleriaScreenNavigationProp
 }
-
-
 
 
 export type PerfilStackParamList = {

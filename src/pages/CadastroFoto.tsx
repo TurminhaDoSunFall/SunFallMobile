@@ -1,23 +1,19 @@
 import React from "react";
 import { useNavigation } from "@react-navigation/core";
-import { Container, Menu, FormRow, Label, TextInput, Rodape} from "../styles/CadastroFoto";
+import { Container, FormRow, Label, TextInput} from "../styles/CadastroFoto";
 import {Button} from "../components"
-import { CadastroFotoTypes } from "../types/ScreenStack.types";
+import { EditareCadastroFotoTypes } from "../types/ScreenStack.types";
 
 //tem que ter um handle em Minha Galeria para aqui dar certo, igual o que está abaixo, chamando CadastroFoto
-export default function CadastroFoto({navigation}: CadastroFotoTypes) {
+export default function CadastroFoto({navigation}: EditareCadastroFotoTypes) {
   function handleMinhaGaleria(){
     navigation.navigate("MinhaGaleria");
   }
   function handleGaveta() {
     navigation.navigate("Gaveta");
   }
-  function handleMinhaGaleria() {
-    navigation.navigate("MinhaGaleria");
-  }
     return (
       <Container>
-        <Menu></Menu>
         <TitleFoto>Cadastrar Foto</TitleFoto>
 
         //titulo da foto
@@ -44,8 +40,6 @@ export default function CadastroFoto({navigation}: CadastroFotoTypes) {
         
         //Botton submit que leva até a MinhaGaleria
         <Button title="Submit" onPress={handleMinhaGaleria} />
-        <Rodape></Rodape>
         </Container>
   );
 }
-//>>>>>>> acb68b0ab8c8f69defb3a7400737a68400bc412f

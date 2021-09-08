@@ -9,6 +9,9 @@ export default function Detalhes({navigation}: DetalhesTypes) {
     function handleGaveta() {
       navigation.navigate("Gaveta");
     }
+    function handleGaleria() {
+      navigation.navigate("Galeria")
+    }
     return (
       <Container>
         <Header image={require("../../assets/logo.png")}/>

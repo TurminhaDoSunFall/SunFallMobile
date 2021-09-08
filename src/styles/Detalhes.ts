@@ -1,4 +1,5 @@
 import styled from "styled-components/native"
+import colors from "../styles/Colors"
 
 export const Foto = styled.Image `
     height: auto;
@@ -7,7 +8,7 @@ export const Foto = styled.Image `
 
 export const Container = styled.View`
   flex: 1;
-  background-color: #29000E;
+  background-color: roxoescuro;
   align-items: center;
   justify-content: center;
 `
@@ -22,7 +23,7 @@ export const FormRow = styled.View`
 export const Label = styled.Text`
   font-family: "Nunito_400Regular";
   font-size: 12px;
-  color: #FEDF50;
+  color: yellow;
   padding: 5px;
   border-radius: 30px;
   width: 80px;
