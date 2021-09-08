@@ -1,4 +1,5 @@
 import styled from 'styled-components/native'
+import colors from "../styles/Colors"
 
 export const Container = styled.View`
   flex: 1;
@@ -15,7 +16,7 @@ export const Title = styled.Text`
   text-align: center;
 `
 
-export const TitleCadastrar = styled.Text`
+export const TitleFoto = styled.Text`
   font-size: 18px;
   color: black;
   padding: 5px;

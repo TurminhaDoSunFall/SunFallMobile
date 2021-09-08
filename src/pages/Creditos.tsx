@@ -1,7 +1,6 @@
 import React from "react";
 import { useNavigation } from "@react-navigation/core";
 import { Container, FormRow, Label, TitleCreditos } from "../styles/Creditos";
-import { Fundoama } from "../styles/reutilizar";
 import { Header } from "../components";
 import { CFCTypes } from "../types/ScreenStack.types";
 
@@ -12,7 +11,6 @@ export default function Creditos({navigation}: CFCTypes) {
   return (
     <Container>
       <Header image={require("../../assets/logo.png")}/> 
-      <Fundoama>
         <TitleCreditos>CRÉDITOS</TitleCreditos>
         <FormRow>
           <Label>ISIS S. P.</Label>
@@ -27,7 +25,6 @@ export default function Creditos({navigation}: CFCTypes) {
           <Label>NOSSAS MÃES</Label>
           <Label>E OS PAIS TAMBÉM (PRA NÃO TER CIÚME)</Label>
         </FormRow>
-      </Fundoama>
     </Container>
   );
 }
