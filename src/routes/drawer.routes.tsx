@@ -10,7 +10,7 @@ export default function Gaveta() {
       <Drawer.Navigator
         screenOptions={{
           headerShown: true,
-          headerStyle: {backgroundColor: #FF7F27 },
+          headerStyle: {backgroundColor:#FF7F27},
           headerTintColor: #FF7F27,
           drawerStyle: {
             backgroundColor: #80002B,
@@ -27,6 +27,7 @@ export default function Gaveta() {
         <Drawer.Screen name="Feedback" component={Feedback} options={{drawerLabel: "FEEDBACK"}} />
         <Drawer.Screen name="Creditos" component={Creditos} options={{drawerLabel: "CRÉDITOS"}} />
         <Drawer.Screen name="Configurações" component={Config} options={{drawerLabel: "CONFIGURAÇÕES"}}/>
+        <Drawer.Screen name="Camera" component={Camera} options={{drawerLabel: "CÂMERA"}}/>
       </Drawer.Navigator>
   );
 }

@@ -12,6 +12,9 @@ export default function CadastroFoto({navigation}: CadastroFotoTypes) {
   function handleGaveta() {
     navigation.navigate("Gaveta");
   }
+  function handleMinhaGaleria() {
+    navigation.navigate("MinhaGaleria");
+  }
     return (
       <Container>
         <Menu></Menu>
