@@ -1,8 +1,9 @@
 import styled from 'styled-components/native'
+import colors from "../styles/Colors"
 
 export const Container = styled.View`
   flex: 1;
-  background-color: #FEDF50;
+  background-color: amarelo;
   align-items: center;
   justify-content: center;
 `
@@ -31,7 +32,7 @@ export const FormRow = styled.View`
 export const Label = styled.Text`
   font-family: "Chango_400Regular";
   font-size: 18px;
-  color: #29000E;
+  color: roxoescuro;
   padding: 5px;
   border-radius: 30px;
   width: 80px;

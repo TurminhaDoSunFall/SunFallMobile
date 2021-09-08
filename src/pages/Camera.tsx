@@ -139,21 +139,21 @@ const styles = StyleSheet.create({
   },
   startOver: {
     flex: 1,
-    backgroundColor: colors.white,
+    backgroundColor: colors.branco,
     justifyContent: "center",
     alignItems: "center",
   },
   buttonStartOver: {
     width: 130,
     borderRadius: 4,
-    backgroundColor: colors.yellow,
+    backgroundColor: colors.amarelo,
     flexDirection: "row",
     justifyContent: "center",
     alignItems: "center",
     height: 40,
   },
   textStartOver: {
-    color: colors.white,
+    color: colors.branco,
     fontWeight: "bold",
     textAlign: "center",
   },
@@ -174,7 +174,7 @@ const styles = StyleSheet.create({
     borderRadius: 4,
   },
   textPreviewVisible: {
-    color: colors.white,
+    color: colors.branco,
     fontSize: 20,
   },
   buttonSavePhoto: {
@@ -194,7 +194,7 @@ const styles = StyleSheet.create({
     right: "5%",
   },
   textClose: {
-    color: colors.white,
+    color: colors.branco,
     fontSize: 20,
   },
   buttonFlip: {
@@ -205,7 +205,7 @@ const styles = StyleSheet.create({
   textFlip: {
     fontSize: 18,
     marginBottom: 10,
-    color: colors.white,
+    color: colors.branco,
   },
   viewTakePicture: {
     position: "absolute",
@@ -226,6 +226,6 @@ const styles = StyleSheet.create({
     height: 70,
     bottom: 0,
     borderRadius: 50,
-    backgroundColor: colors.white,
+    backgroundColor: colors.branco,
   },
 });

@@ -1,8 +1,9 @@
 export default {
-  black: '#000000',
-  white: '#FFFFFF',
-  yellow: '#FEDF50',
-  brownLight: '#b6a6a6',
-  gray: '#C6C6C6',
+  preto: '#000000',
+  branco: '#FFFFFF',
+  amarelo: '#FEDF50',
+  laranja: '##FF7F27',
+  roxo: '#80002B',
   roxoescuro: '#29000E',
+
 }
