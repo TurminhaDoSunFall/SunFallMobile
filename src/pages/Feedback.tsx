@@ -3,6 +3,7 @@ import { useNavigation } from "@react-navigation/core";
 import {
   Container,
   Menu,
+  Title,
   Rodape,
   FormRow,
   Label,
@@ -11,25 +12,30 @@ import {
 } from "../styles/Cadastrar";
 import { Button } from "../components";
 import { BotaoReportarProblema } from "../styles/Feedback";
-import { CFCTypes } from "../types/ScreenStack.types";
+import { FeedbackTypes } from "../types/ScreenStack.types";
 
-export default function Creditos({navigation}: CFCTypes) {
+export default function Feedback({navigation}: FeedbackTypes) {
   function handleGaveta() {
     navigation.navigate("Gaveta");
   }
+  function handleFeedback() {
+    navigation.navigate("Feedback");
+  }
+
   return (
     <Container>
       <Menu></Menu>
+      <Title>FeedBack</Title>
         <TitleCadastrar>Reporte um erro que você encontrou utilizando o site SunFall:</TitleCadastrar>
         <FormRow>
           <Label>Erro:</Label>
-          <TextInput placeholder="Qual é o erro em questão? "></TextInput>
+          <TextInput placeholder="Qual é o erro em questão? " value="TituloErro"></TextInput>
         </FormRow>
         <FormRow>
           <Label>Descrição do Erro</Label>
-          <BotaoReportarProblema placeholder="Descreva o erro que você encontrou, relatando cada detalhe e(opcional) possíveis soluções para o devido problema."></BotaoReportarProblema>
+          <BotaoReportarProblema placeholder="Descreva o erro que você encontrou, relatando cada detalhe e(opcional) possíveis soluções para o devido problema." value="DescricaoErro"></BotaoReportarProblema>
         </FormRow>
-        <Button title="Submit" onPress={handleHome} />
+        <Button title="Submit" onPress={handleFeedback} />
       <Rodape></Rodape>
     </Container>
   );
