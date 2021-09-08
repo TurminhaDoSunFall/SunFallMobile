@@ -4,11 +4,18 @@ import { Container, FormRow, Label, TextInput, TitleCadastrar } from "../styles/
 import { Button, Header } from "../components";
 import LoginRoute from "../routes/login.route";
 import Footer from "../components/Footer";
+import { CadastrarTypes } from "../types/ScreenStack.types";
 
 
-export default function Creditos({navigation}: CFCTypes) {
-  function Login() {
+export default function Creditos({navigation}: CadastrarTypes) {
+  function handleEscolha() {
+    navigation.navigate("Escolha");
+  }
+  function handleLogin(){
     navigation.navigate("Login");
+  }
+  function handleGaveta(){
+    navigation.navigate("Gaveta");
   }
   return (
     <Container>
@@ -26,7 +33,7 @@ export default function Creditos({navigation}: CFCTypes) {
           <Label>Senha: </Label>
           <TextInput placeholder=""></TextInput>
         </FormRow>
-        <Button title="Submit" onPress={Login} />
+        <Button title="Submit" onPress={handleLogin} />
       <Footer />
     </Container>
   );

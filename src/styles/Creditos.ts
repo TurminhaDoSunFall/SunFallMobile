@@ -7,12 +7,6 @@ export const Container = styled.View`
   justify-content: center;
 `
 
-export const Menu = styled.View`
-  background-color: #FF7F27;
-  height: 85px;
-  width: 100%;
-`
-
 export const TitleCreditos = styled.Text`
   font-size: 18px;
   color: black;
@@ -31,13 +25,14 @@ export const FormRow = styled.View`
   flex-direction: row;
   margin-top: 20px;
   margin-bottom: 1px;
+  text-align: center;
 `
 
 export const Label = styled.Text`
+  font-family: "Chango_400Regular";
   font-size: 18px;
-  color: black;
+  color: #29000E;
   padding: 5px;
-  background-color: #FEDF50;
   border-radius: 30px;
   width: 80px;
   height: 35px;

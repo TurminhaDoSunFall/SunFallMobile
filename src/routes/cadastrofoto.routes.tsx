@@ -13,7 +13,7 @@ export default function CadastrofotoRoute() {
       }}
     >
       <Stack.Screen name="MinhaGaleria" component={MinhaGaleria} />
-      <Stack.Screen name="DrawerStack" component={Gaveta} />
+      <Stack.Screen name="Gaveta" component={Gaveta} />
     </Stack.Navigator>
     
   );

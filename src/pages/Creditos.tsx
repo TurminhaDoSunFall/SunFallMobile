@@ -1,8 +1,8 @@
 import React from "react";
 import { useNavigation } from "@react-navigation/core";
-import { Container, Menu, FormRow, Label, TitleCreditos } from "../styles/Creditos";
+import { Container, FormRow, Label, TitleCreditos } from "../styles/Creditos";
 import { Fundoama } from "../styles/reutilizar";
-import { Header , Rodape } from "../components";
+import { Header } from "../components";
 import { CFCTypes } from "../types/ScreenStack.types";
 
 export default function Creditos({navigation}: CFCTypes) {
@@ -11,12 +11,21 @@ export default function Creditos({navigation}: CFCTypes) {
   }
   return (
     <Container>
-      <Header/>
+      <Header image={require("../../assets/logo.png")}/> 
       <Fundoama>
-        <Menu/>
         <TitleCreditos>CRÉDITOS</TitleCreditos>
         <FormRow>
-          <Label>ISIS S. P. JOÃO MARCOS S. H. PEDRO LUIS C. B. _________________ CEFET-MG 2021 AGRADECIMENTOS LAZIN O SOL NOSSAS MÃES E OS PAIS TAMBÉM (PRA NÃO TER CIÚME)</Label>
+          <Label>ISIS S. P.</Label>
+          <Label> JOÃO MARCOS S. H</Label>
+          <Label>PEDRO LUIS C. B.</Label>
+          <Label>_________________</Label>
+          <Label>CEFET-MG</Label>
+          <Label>2021</Label>
+          <Label>AGRADECIMENTOS</Label>
+          <Label>LAZIN</Label>
+          <Label>O SOL</Label>
+          <Label>NOSSAS MÃES</Label>
+          <Label>E OS PAIS TAMBÉM (PRA NÃO TER CIÚME)</Label>
         </FormRow>
       </Fundoama>
     </Container>
