@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, TitleFoto, FormRow, Label, TextInput} from "../styles/CadastroFoto";
-import {Button, Header,} from "../components"
+import { Button, Header,} from "../components"
 import { EditareCadastroFotoTypes } from "../types/ScreenStack.types";
 
 export default function CadastroFoto({navigation}: EditareCadastroFotoTypes) {
@@ -28,8 +28,6 @@ export default function CadastroFoto({navigation}: EditareCadastroFotoTypes) {
           <Label>Descrição</Label>
           <TextInput placeholder=""></TextInput>
         </FormRow>
-
-         //localização sim/não 
         
         //senha para confirmar 
         <FormRow>
@@ -39,7 +37,6 @@ export default function CadastroFoto({navigation}: EditareCadastroFotoTypes) {
         
         //Botton submit que leva até a MinhaGaleria
         <Button title="Submit" onPress={handleMinhaGaleria} />
-        <Rodape></Rodape>
         </Container>
   );
 }

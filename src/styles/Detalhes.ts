@@ -1,10 +1,6 @@
 import styled from "styled-components/native"
 import colors from "../styles/Colors"
 
-export const Foto = styled.Image `
-    height: auto;
-    width: fit-content;
-`
 
 export const Container = styled.View`
   flex: 1;

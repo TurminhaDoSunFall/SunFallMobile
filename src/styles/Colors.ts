@@ -5,5 +5,4 @@ export default {
   laranja: '##FF7F27',
   roxo: '#80002B',
   roxoescuro: '#29000E',
-
 }

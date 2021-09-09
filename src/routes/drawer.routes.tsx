@@ -1,7 +1,11 @@
 import React from 'react';
 import { Text, StyleSheet } from "react-native";
 import { createDrawerNavigator } from '@react-navigation/drawer';
-import { Creditos , Escolha, Feedback, Perfil , Galeria, MinhaGaleria, CadastroFoto, Config} from '../pages';
+import { Creditos , Escolha, Feedback, Perfil , Galeria, MinhaGaleria, CadastroFoto, Config, Camera} from '../pages';
+import colors from '../styles/Colors';
+
+
+
 
 const Drawer = createDrawerNavigator();
 
@@ -10,14 +14,14 @@ export default function Gaveta() {
       <Drawer.Navigator
         screenOptions={{
           headerShown: true,
-          headerStyle: {backgroundColor:#FF7F27},
-          headerTintColor: #FF7F27,
+          headerStyle: {backgroundColor: colors.laranja},
+          headerTintColor: colors.laranja,
           drawerStyle: {
-            backgroundColor: #80002B,
+            backgroundColor: colors.roxo,
           },
-          drawerInactiveTintColor:#80002B, 
-          drawerActiveTintColor:#470018,
-        }},
+          drawerInactiveTintColor: colors.roxo, 
+          drawerActiveTintColor: colors.roxoescuro,
+        }}
         >
         <Drawer.Screen name="Escolha" component={Escolha} options={{drawerLabel: "ESCOLHA"}}/>
         <Drawer.Screen name="Perfil" component={Perfil} options={{drawerLabel: "PERFIL"}} />

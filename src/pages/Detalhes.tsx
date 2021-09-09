@@ -1,8 +1,8 @@
 import React from "react";
 import { useNavigation } from "@react-navigation/core";
-import { ButtonEscolha, Header} from "../components";
+import { ButtonEscolha, Header, Foto} from "../components";
 import { DetalhesTypes } from "../types/ScreenStack.types";
-import { Foto , Container, FormRow, Label } from "../styles/Detalhes";
+import { Container, FormRow, Label } from "../styles/Detalhes";
 
 
 export default function Detalhes({navigation}: DetalhesTypes) {
@@ -14,7 +14,7 @@ export default function Detalhes({navigation}: DetalhesTypes) {
     }
     return (
       <Container>
-        <Header image={require("../../assets/logo.png")}/>
+        <Header/>
         <Foto image={require("../../assets/por_sol.jpg")}/>
         <FormRow>
           <Label>sLOREM IMPSUM</Label>

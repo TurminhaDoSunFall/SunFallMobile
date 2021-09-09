@@ -3,7 +3,7 @@ import colors from "../styles/Colors"
 
 export const Container = styled.View`
   flex: 1;
-  background-color: amarelo;
+  background-color: ${colors.amarelo};
   align-items: center;
   justify-content: center;
 `
