@@ -10,7 +10,7 @@ export default function Creditos({navigation}: CFCTypes) {
   }
   return (
     <Container>
-      <Header image={require("../../assets/logo.png")}/> 
+      <Header/> 
         <TitleCreditos>CRÉDITOS</TitleCreditos>
         <FormRow><Label>ISIS S. P.</Label></FormRow>
         <FormRow><Label> JOÃO MARCOS S. H</Label></FormRow>

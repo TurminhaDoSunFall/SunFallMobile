@@ -2,13 +2,11 @@ import React from "react";
 import { useNavigation } from "@react-navigation/core";
 import {
   Container,
-  Menu,
   Title,
-  Rodape,
   FormRow,
   Label,
   TextInput,
-  TitleCadastrar,
+  TitleCadastrar
 } from "../styles/Cadastrar";
 import { Button } from "../components";
 import { BotaoReportarProblema } from "../styles/Feedback";
@@ -24,7 +22,6 @@ export default function Feedback({navigation}: FeedbackTypes) {
 
   return (
     <Container>
-      <Menu></Menu>
       <Title>FeedBack</Title>
         <TitleCadastrar>Reporte um erro que você encontrou utilizando o site SunFall:</TitleCadastrar>
         <FormRow>
@@ -36,7 +33,6 @@ export default function Feedback({navigation}: FeedbackTypes) {
           <BotaoReportarProblema placeholder="Descreva o erro que você encontrou, relatando cada detalhe e(opcional) possíveis soluções para o devido problema." value="DescricaoErro"></BotaoReportarProblema>
         </FormRow>
         <Button title="Submit" onPress={handleFeedback} />
-      <Rodape></Rodape>
     </Container>
   );
 }

@@ -5,4 +5,5 @@ export interface DetalhesProps {
   foto: ImageSourcePropType
   titulo: String
   descricao: String
+  nome_user: String
 }

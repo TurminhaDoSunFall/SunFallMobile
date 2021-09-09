@@ -3,9 +3,11 @@ import { useNavigation } from "@react-navigation/core";
 import { ButtonEscolha, Header, Foto} from "../components";
 import { DetalhesTypes } from "../types/ScreenStack.types";
 import { Container, FormRow, Label } from "../styles/Detalhes";
+import { DetalhesProps } from "../interfaces/Detalhes.interface";
 
 
 export default function Detalhes({navigation}: DetalhesTypes) {
+    const { titulo, foto, descricao, nome_user } = route.params as DetalhesProps;
     function handleGaveta() {
       navigation.navigate("Gaveta");
     }

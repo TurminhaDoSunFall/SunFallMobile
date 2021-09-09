@@ -3,7 +3,6 @@ import { useNavigation } from "@react-navigation/core";
 import { Container, FormRow, Label, TextInput, TitleCadastrar } from "../styles/Cadastrar";
 import { Button, Header } from "../components";
 import LoginRoute from "../routes/login.route";
-import Footer from "../components/Footer";
 import { CadastrarTypes } from "../types/ScreenStack.types";
 
 
@@ -19,7 +18,7 @@ export default function Creditos({navigation}: CadastrarTypes) {
   }
   return (
     <Container>
-      <Header></Header>
+      <Header/>
         <TitleCadastrar>SIGN-UP</TitleCadastrar>
         <FormRow>
           <Label>Nome:</Label>
@@ -34,7 +33,6 @@ export default function Creditos({navigation}: CadastrarTypes) {
           <TextInput placeholder=""></TextInput>
         </FormRow>
         <Button title="Submit" onPress={handleLogin} />
-      <Footer />
     </Container>
   );
 }
