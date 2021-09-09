@@ -66,6 +66,7 @@ export type FeedbackTypes = {
 
 export type GaleriaStackParamList = {
   Gaveta: undefined
+  Detalhes: undefined
 }
 type GaleriaScreenNavigationProp = StackNavigationProp<GaleriaStackParamList>
 export type GaleriaTypes = {

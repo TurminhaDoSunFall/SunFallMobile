@@ -12,19 +12,17 @@ export default function Creditos({navigation}: CFCTypes) {
     <Container>
       <Header image={require("../../assets/logo.png")}/> 
         <TitleCreditos>CRÉDITOS</TitleCreditos>
-        <FormRow>
-          <Label>ISIS S. P.</Label>
-          <Label> JOÃO MARCOS S. H</Label>
-          <Label>PEDRO LUIS C. B.</Label>
-          <Label>_________________</Label>
-          <Label>CEFET-MG</Label>
-          <Label>2021</Label>
-          <Label>AGRADECIMENTOS</Label>
-          <Label>LAZIN</Label>
-          <Label>O SOL</Label>
-          <Label>NOSSAS MÃES</Label>
-          <Label>E OS PAIS TAMBÉM (PRA NÃO TER CIÚME)</Label>
-        </FormRow>
+        <FormRow><Label>ISIS S. P.</Label></FormRow>
+        <FormRow><Label> JOÃO MARCOS S. H</Label></FormRow>
+        <FormRow><Label>PEDRO LUIS C. B.</Label></FormRow>
+        <FormRow><Label>_________________</Label></FormRow>
+        <FormRow><Label>CEFET-MG</Label></FormRow>
+        <FormRow><Label>2021</Label></FormRow>
+        <FormRow><Label>AGRADECIMENTOS</Label></FormRow>
+        <FormRow><Label>LAZIN</Label></FormRow>
+        <FormRow><Label>O SOL</Label></FormRow>
+        <FormRow><Label>NOSSAS MÃES</Label></FormRow>
+        <FormRow><Label>E OS PAIS TAMBÉM (PRA NÃO TER CIÚME)</Label></FormRow>
     </Container>
   );
 }
