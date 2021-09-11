@@ -42,6 +42,7 @@ export type DetalhesTypes = {
 export type EditareCadastroFotoStackParamList = {
   Gaveta: undefined
   MinhaGaleria: undefined
+  Camera: undefined
 }
 type EditareCadastroFotoScreenNavigationProp = StackNavigationProp<EditareCadastroFotoStackParamList>
 export type EditareCadastroFotoTypes = {
