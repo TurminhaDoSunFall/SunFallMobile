@@ -1,8 +1,8 @@
 import React from "react";
-import { useNavigation } from "@react-navigation/core";
+//import { useNavigation } from "@react-navigation/core";
 import {
   Container,
-  Menu,
+  Header,
   TitleLogin,
   FormRow,
   Label,
@@ -26,7 +26,7 @@ export default function Login({navigation}: LoginTypes) {
   }
   return (
     <Container>
-        <Menu></Menu>
+        <Header/>
         <TitleLogin>LOG-IN</TitleLogin>
         <FormRow>
           <Label>E-mail:</Label>
