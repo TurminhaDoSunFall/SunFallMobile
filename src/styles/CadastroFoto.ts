@@ -10,6 +10,7 @@ export const Container = styled.View`
 
 export const Title = styled.Text`
   font-size: 24px;
+  font-family: "Chango_400Regular";
   color: black;
   font-weight: 500;
   margin-bottom: 100px;
@@ -18,6 +19,7 @@ export const Title = styled.Text`
 
 export const TitleFoto = styled.Text`
   font-size: 18px;
+  font-family: "Chango_400Regular";
   color: black;
   padding: 5px;
   background-color: #FEDF50;
@@ -38,6 +40,7 @@ export const FormRow = styled.View`
 
 export const Label = styled.Text`
   font-size: 18px;
+  font-family: "Nunito_400Regular";
   color: black;
   padding: 5px;
   background-color: #FEDF50;
@@ -50,6 +53,7 @@ export const Label = styled.Text`
 
 export const TextInput = styled.TextInput`
   font-size: 18px;
+  font-family: "Nunito_400Regular";
   color: black;
   padding: 5px;
   background-color: #FEDF50;
