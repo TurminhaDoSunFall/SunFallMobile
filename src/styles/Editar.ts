@@ -7,13 +7,14 @@ export const Container = styled.View`
   justify-content: center;
 `
 
-export const Menu = styled.View`
+export const Header = styled.View`
   background-color: #80002B;
   height: 85px;
 `
 
 export const TitleFoto = styled.Text`
   font-size: 18px;
+  font-family: "Chango_400Regular";
   color: black; 
   padding: 5px;
   background-color: #FEDF50;
@@ -33,6 +34,7 @@ export const FormRow = styled.View`
 `
 
 export const Label = styled.Text`
+  font-family: "Nunito_400Regular";
   font-size: 18px;
   color: black;
   padding: 5px;
@@ -45,7 +47,7 @@ export const Label = styled.Text`
 `
 
 export const TextInput = styled.TextInput`
-   
+  font-family: "Nunito_400Regular";
   font-size: 18px;
   color: black;
   padding: 5px;
@@ -54,10 +56,4 @@ export const TextInput = styled.TextInput`
   width: 250px;
   height: 35px;
   top: -35%;
-`
-
-export const Rodape = styled.View`
-  background-color: #80002B;
-  height: 65px;
-  position: absolute;
 `
