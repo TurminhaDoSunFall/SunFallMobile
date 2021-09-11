@@ -63,9 +63,3 @@ export const TextInput = styled.TextInput`
   height: 35px;
   top: -35%;
 `
-
-export const Rodape = styled.View`
-  background-color: #80002B;
-  height: 65px;
-  position: fixed;
-`
