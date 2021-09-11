@@ -1,12 +1,11 @@
 import React from "react";
-import { useNavigation } from "@react-navigation/core";
+//import { useNavigation } from "@react-navigation/core";
 import { Container, FormRow, Label, TextInput, TitleCadastrar } from "../styles/Cadastrar";
 import { Button, Header } from "../components";
-import LoginRoute from "../routes/login.route";
 import { CadastrarTypes } from "../types/ScreenStack.types";
 
 
-export default function Creditos({navigation}: CadastrarTypes) {
+export default function Cadastrar({navigation}: CadastrarTypes) {
   function handleEscolha() {
     navigation.navigate("Escolha");
   }
