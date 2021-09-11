@@ -7,22 +7,15 @@ export const Container = styled.View`
   justify-content: center;
 `
 
-export const Menu = styled.View`
+export const Header = styled.View`
   background-color: #80002B;
   height: 85px;
-`
-export const Title = styled.Text`
-  font-size: 24px;
-  color: black;
-  font-weight: 500;
-  margin-bottom: 100px;
-  text-align: center;
 `
 
 export const TitleLogin = styled.Text`
   font-size: 18px;
   color: black;
-   
+  font-family: "Chango_400Regular";
   padding: 5px;
   background-color: #FEDF50;
   border-radius: 30px;
@@ -42,6 +35,7 @@ export const FormRow = styled.View`
 
 export const Label = styled.Text`
   font-size: 18px;
+  font-family: "Nunito_400Regular";
   color: black;
   padding: 5px;
   background-color: #FEDF50;
@@ -53,7 +47,7 @@ export const Label = styled.Text`
 `
 
 export const TextInput = styled.TextInput`
-   
+  font-family: "Nunito_400Regular";
   font-size: 18px;
   color: black;
   padding: 5px;
