@@ -1,10 +1,11 @@
 import React from "react";
-import {Container, Menu, TitleFoto, FormRow, Label, TextInput, Image} from "../styles/Editar";
+import {Container, Header, TitleFoto, FormRow, Label, TextInput, Image} from "../styles/Editar";
 import {Button} from "../components"
 import { EditareCadastroFotoTypes } from "../types/ScreenStack.types";
 
 export default function Editar({navigation}: EditareCadastroFotoTypes) {
-    function handleGaveta() {
+    
+  function handleGaveta() {
         navigation.navigate("Gaveta");
       }
     
@@ -13,13 +14,13 @@ export default function Editar({navigation}: EditareCadastroFotoTypes) {
       }
       return (
         <Container>
-          <Menu></Menu>
+          <Header/>
           <TitleFoto>Editar Foto</TitleFoto>
   
           //titulo da foto
           <FormRow>
             <Label>Título</Label>
-            <TextInput placeholder=""></TextInput>
+             <TextInput placeholder=""></TextInput>
           </FormRow>
   
           //Arquivo da foto que veio de Minha Galeria
