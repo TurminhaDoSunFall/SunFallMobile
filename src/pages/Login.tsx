@@ -6,10 +6,10 @@ import {
   TitleLogin,
   FormRow,
   Label,
-  TextInput,
-  Rodape 
+  TextInput, 
 } from "../styles/Login";
 import { Button } from "../components";
+import { LoginTypes } from "../types/ScreenStack.types";
 
 export default function Login({navigation}: LoginTypes) {
   
@@ -37,7 +37,6 @@ export default function Login({navigation}: LoginTypes) {
           <TextInput placeholder=""></TextInput>
         </FormRow>
         <Button title="Submit" onPress={handlePerfil} />
-        <Rodape></Rodape>
     </Container>
   );
 }
