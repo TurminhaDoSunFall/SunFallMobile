@@ -1,13 +1,32 @@
 import React from "react";
-import { useNavigation } from "@react-navigation/core";
-import { Header} from "../components";
+import { Header , ButtonConfig } from "../components";
+
+import {
+  Container,
+  FormRow,
+  TitleCadastrar,
+} from "../styles/Cadastrar";
 import { CFCTypes } from "../types/ScreenStack.types";
 
-export default function Creditos({navigation}: CFCTypes) {
+export default function Config({navigation}: CFCTypes) {
   function handleGaveta() {
     navigation.navigate("Gaveta");
   }
+  function handleConfig() {
+    navigation.navigate("Gaveta");
+  }
     return (
-      <Header/>
+      <Container> 
+        <Header/>
+        <FormRow>
+          <TitleCadastrar>Som:</TitleCadastrar>
+          <TitleCadastrar>ViverFeliz:</TitleCadastrar>
+          <ButtonConfig title="Delete Account" onPress={handleConfig} />
+          <ButtonConfig title="Log Out" onPress={handleConfig} />
+        </FormRow>
+      
+    </Container>
+
+
     );
   }
