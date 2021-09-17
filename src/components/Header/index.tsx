@@ -1,14 +1,23 @@
 import React from "react";
-import { Image } from "react-native";
-import { HeaderProps } from "../../interfaces/Header.interface";
-import { HeaderStyle, HeaderImage1 } from "./styles";
+import { Image, View , StyleSheet } from "react-native";
 
 export default function Header() {
   return (
-    <HeaderStyle>
-      <HeaderImage1>
-        <Image source={require("../../assets/logo.png")}/>
-      </HeaderImage1>
-    </HeaderStyle>
+    <View style={styles.header}>
+
+    </View>
   );
 }
+
+const styles = StyleSheet.create({
+  header: {
+    flexDirection: "row",
+    backgroundColor: "#FF7F27",
+  },
+ 
+  image: {
+    width: "50%",
+    alignItems: "center",
+  },
+  
+})
