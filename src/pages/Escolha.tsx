@@ -1,10 +1,10 @@
 import React from "react";
-//import { useNavigation } from "@react-navigation/core";
+import { Image } from "react-native";
 import { Container } from "../styles/Escolha";
 import { ButtonEscolha, Header} from "../components";
 import { LoginTypes } from "../types/ScreenStack.types";
 
-export default function Login({navigation}: LoginTypes) {
+export default function Escolha({navigation}: LoginTypes) {
 
   function handleLogin() {
     navigation.navigate("Login");
