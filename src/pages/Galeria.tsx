@@ -8,7 +8,7 @@ import data from "../services/data";
 import { DetalhesProps } from "../interfaces/Detalhes.interface";
 
 
-export default function Editar({navigation}: GaleriaTypes) {
+export default function Galeria({navigation}: GaleriaTypes) {
     function handleGaveta() {
         navigation.navigate("Gaveta");
       }
