@@ -1,7 +1,7 @@
 import React from "react";
 import { Image } from "react-native";
 import { Container } from "../styles/Escolha";
-import { ButtonEscolha, Header} from "../components";
+import { ButtonEscolha } from "../components";
 import { LoginTypes } from "../types/ScreenStack.types";
 
 export default function Escolha({navigation}: LoginTypes) {
@@ -14,7 +14,7 @@ export default function Escolha({navigation}: LoginTypes) {
   }
   return (
     <Container>
-      <Header Image source={require("../../assets/logo.png")}/>
+      <Image source={require("../../assets/logo.png")}/>
       <ButtonEscolha title="LOG-IN" onPress={handleLogin} />
       <ButtonEscolha title="CADASTRE-SE" onPress={handleCadastrar} />
     </Container>
