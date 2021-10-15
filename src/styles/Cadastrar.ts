@@ -3,14 +3,14 @@ import colors from "../styles/Colors"
 
 export const Container = styled.View`
   flex: 1;
-  background-color: amarelo;
+  background-color: ${colors.laranja};
   align-items: center;
   justify-content: center;
 `
 
 export const Title = styled.Text`
   font-size: 24px;
-  color: preto;
+  color: black;
   font-weight: 500;
   margin-bottom: 100px;
   text-align: center;
@@ -20,7 +20,7 @@ export const TitleCadastrar = styled.Text`
   font-size: 18px;
   color: black;
   padding: 5px;
-  background-color: amarelo;
+  background-color: ${colors.amarelo};
   border-radius: 30px;
   font-weight: 200;
   text-align: center;
@@ -40,7 +40,7 @@ export const Label = styled.Text`
   font-size: 18px;
   color: black;
   padding: 5px;
-  background-color: amarelo;
+  background-color: ${colors.amarelo};
   border-radius: 30px;
   width: 80px;
   height: 35px;
@@ -52,7 +52,7 @@ export const TextInput = styled.TextInput`
   font-size: 18px;
   color: black;
   padding: 5px;
-  background-color: amarelo;
+  background-color: ${colors.amarelo};
   border-radius: 30px;
   width: 250px;
   height: 35px;

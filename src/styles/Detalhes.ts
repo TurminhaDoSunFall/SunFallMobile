@@ -4,7 +4,7 @@ import colors from "../styles/Colors"
 
 export const Container = styled.View`
   flex: 1;
-  background-color: roxoescuro;
+  background-color: ${colors.roxoescuro};
   align-items: center;
   justify-content: center;
 `
@@ -19,7 +19,7 @@ export const FormRow = styled.View`
 export const Label = styled.Text`
   font-family: "Nunito_400Regular";
   font-size: 12px;
-  color: yellow;
+  color: ${colors.amarelo};
   padding: 5px;
   border-radius: 30px;
   width: 80px;

@@ -32,7 +32,7 @@ export const FormRow = styled.View`
 export const Label = styled.Text`
   font-family: "Chango_400Regular";
   font-size: 18px;
-  color: roxoescuro;
+  color: ${colors.roxoescuro};
   padding: 5px;
   border-radius: 30px;
   width: 80px;
