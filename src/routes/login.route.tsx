@@ -4,7 +4,7 @@ import {Cadastrar, Escolha, Login, Perfil} from '../pages';
 import  Gaveta from "./drawer.routes";
 import { LoginStackParamList } from "../types/ScreenStack.types";
 
-const Stack = createStackNavigator(LoginStackParamList);
+const Stack = createStackNavigator <LoginStackParamList>();
 
 export default function LoginRoute() {
   return (

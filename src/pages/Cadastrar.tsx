@@ -6,14 +6,8 @@ import { CadastrarTypes } from "../types/ScreenStack.types";
 
 
 export default function Cadastrar({navigation}: CadastrarTypes) {
-  function handleEscolha() {
-    navigation.navigate("Escolha");
-  }
   function handleLogin(){
     navigation.navigate("Login");
-  }
-  function handleGaveta(){
-    navigation.navigate("Gaveta");
   }
   return (
     <Container>

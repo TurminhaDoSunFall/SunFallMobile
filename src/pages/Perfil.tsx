@@ -11,7 +11,6 @@ import {
 } from "../styles/Perfil";
 import { Button } from "../components";
 import { PerfilTypes } from "../types/ScreenStack.types";
-import { LoginTypes } from "../types/ScreenStack.types";
 
 export default function Perfil({navigation}: PerfilTypes) {
   function handleLogin() {
@@ -40,7 +39,7 @@ export default function Perfil({navigation}: PerfilTypes) {
           <Label>Localização</Label>
           <TextShow>Panamá</TextShow>
         </FormRow>
-      <Rodape/>
+        <Button title="Gaveta" onPress={handleGaveta} />
     </Container>
   );
 }
