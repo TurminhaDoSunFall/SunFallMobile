@@ -1,9 +1,7 @@
 import React from "react";
-import { useNavigation } from "@react-navigation/core";
 import {
   Container,
   Menu,
-  Rodape,
   FormRow,
   Label,
   TitlePerfil,
@@ -13,14 +11,12 @@ import { Button } from "../components";
 import { PerfilTypes } from "../types/ScreenStack.types";
 
 export default function Perfil({navigation}: PerfilTypes) {
-  function handleLogin() {
-    navigation.navigate("Login");
-  }
   function handleGaveta() {
     navigation.navigate("Gaveta");
   }
   return (
     <Container>
+      <Button title="Gaveta" onPress={handleGaveta} />
       <Menu/>
         <TitlePerfil>PERFIL</TitlePerfil>
         <FormRow>
@@ -39,7 +35,6 @@ export default function Perfil({navigation}: PerfilTypes) {
           <Label>Localização</Label>
           <TextShow>Panamá</TextShow>
         </FormRow>
-        <Button title="Gaveta" onPress={handleGaveta} />
     </Container>
   );
 }

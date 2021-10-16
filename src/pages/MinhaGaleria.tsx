@@ -21,6 +21,7 @@ export default function MinhaGaleria({navigation}: MinhaGaleriaTypes) {
     
     <Container>
       <Header/>
+      <Button title="Gaveta" onPress={handleGaveta} />
       <TitleFoto>Minha Galeria</TitleFoto>
 
       <Image source={require("../../assets/imagemdeexemplo.png")}/>
