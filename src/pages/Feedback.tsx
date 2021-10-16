@@ -8,7 +8,7 @@ import {
   TextInput,
   TitleCadastrar
 } from "../styles/Cadastrar";
-import { Button } from "../components";
+import { Button , ButtonGaveta } from "../components";
 import { BotaoReportarProblema } from "../styles/Feedback";
 import { FeedbackTypes } from "../types/ScreenStack.types";
 
@@ -22,6 +22,7 @@ export default function Feedback({navigation}: FeedbackTypes) {
 
   return (
     <Container>
+      <ButtonGaveta title="Gaveta" onPress={handleGaveta} />
       <Title>FeedBack</Title>
         <TitleCadastrar>Reporte um erro que você encontrou utilizando o site SunFall:</TitleCadastrar>
         <FormRow>
