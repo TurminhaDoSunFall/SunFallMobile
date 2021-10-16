@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, TitleFoto, FormRow, Label, TextInput} from "../styles/CadastroFoto";
-import { Button, Header, ButtonCamera} from "../components"
+import { Button, Header, ButtonGaveta , ButtonCamera} from "../components"
 import { EditareCadastroFotoTypes } from "../types/ScreenStack.types";
 
 export default function CadastroFoto({navigation}: EditareCadastroFotoTypes) {
@@ -19,6 +19,7 @@ export default function CadastroFoto({navigation}: EditareCadastroFotoTypes) {
     return (
       <Container>
         <Header/>
+        <ButtonGaveta title="Gaveta" onPress={handleGaveta} />
         <TitleFoto>Cadastrar Foto</TitleFoto>
         <FormRow>
           <Label>Título</Label>
