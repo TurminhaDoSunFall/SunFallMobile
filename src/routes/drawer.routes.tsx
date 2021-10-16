@@ -19,7 +19,7 @@ export default function Gaveta() {
           drawerStyle: {
             backgroundColor: '#80002B',
           },
-          drawerInactiveTintColor: '#80002B', 
+          drawerInactiveTintColor: '#000000', 
           drawerActiveTintColor: '#29000E',
         }}
         >
