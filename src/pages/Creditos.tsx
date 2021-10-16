@@ -1,7 +1,7 @@
 import React from "react";
 import { useNavigation } from "@react-navigation/core";
 import { Container, FormRow, Label, TitleCreditos } from "../styles/Creditos";
-import { Header } from "../components";
+import { Header , ButtonGaveta } from "../components";
 import { CFCTypes } from "../types/ScreenStack.types";
 
 export default function Creditos({navigation}: CFCTypes) {
@@ -11,6 +11,7 @@ export default function Creditos({navigation}: CFCTypes) {
   return (
     <Container>
       <Header/> 
+      <ButtonGaveta title="Gaveta" onPress={handleGaveta} />
         <TitleCreditos>CRÉDITOS</TitleCreditos>
         <FormRow><Label>ISIS S. P.</Label></FormRow>
         <FormRow><Label> JOÃO MARCOS S. H</Label></FormRow>
