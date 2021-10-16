@@ -1,6 +1,6 @@
 import React from "react";
 import { useNavigation } from "@react-navigation/core";
-import { ButtonEscolha, Header, Foto} from "../components";
+import { ButtonEscolha, Header, Foto , ButtonGaveta } from "../components";
 import { FormRow, Title, Label, Container } from "../styles/Galeria";
 import { GaleriaTypes } from "../types/ScreenStack.types";
 import { FlatList, View } from "react-native";
@@ -18,6 +18,7 @@ export default function Galeria({navigation}: GaleriaTypes) {
     return (
       <>
       <Header />
+      <ButtonGaveta title="Gaveta" onPress={handleGaveta} />
       <Container>
         <Title>GALERIA</Title>
         <FlatList data={data} keyExtractor={(item)=>String(item.id)} renderItem={({item})=>(
