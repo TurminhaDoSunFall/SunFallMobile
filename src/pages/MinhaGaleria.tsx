@@ -7,7 +7,7 @@ import {
     TitleFoto,
 } from "../styles/Editar";
 import { Image } from "react-native";
-import { Button , Header } from "../components";
+import { Button , Header , ButtonGaveta } from "../components";
 import { MinhaGaleriaTypes } from "../types/ScreenStack.types";
 
 export default function MinhaGaleria({navigation}: MinhaGaleriaTypes) {
@@ -21,7 +21,7 @@ export default function MinhaGaleria({navigation}: MinhaGaleriaTypes) {
     
     <Container>
       <Header/>
-      <Button title="Gaveta" onPress={handleGaveta} />
+      <ButtonGaveta title="Gaveta" onPress={handleGaveta} />
       <TitleFoto>Minha Galeria</TitleFoto>
 
       <Image source={require("../../assets/imagemdeexemplo.png")}/>
