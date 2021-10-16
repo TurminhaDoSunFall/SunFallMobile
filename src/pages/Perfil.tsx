@@ -6,7 +6,7 @@ import {
   TitlePerfil,
   TextShow,
 } from "../styles/Perfil";
-import { Button, Header } from "../components";
+import { Button , Header , ButtonGaveta} from "../components";
 import { PerfilTypes } from "../types/ScreenStack.types";
 
 export default function Perfil({navigation}: PerfilTypes) {
@@ -16,7 +16,7 @@ export default function Perfil({navigation}: PerfilTypes) {
   return (
     <Container>
       <Header/>
-      <Button title="Gaveta" onPress={handleGaveta} />
+      <ButtonGaveta title="Gaveta" onPress={handleGaveta} />
         <TitlePerfil>PERFIL</TitlePerfil>
         <FormRow>
           <Label>Nome:</Label>
