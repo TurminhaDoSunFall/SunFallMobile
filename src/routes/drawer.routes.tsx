@@ -14,13 +14,13 @@ export default function Gaveta() {
       <Drawer.Navigator
         screenOptions={{
           headerShown: true,
-          headerStyle: {backgroundColor: colors.laranja},
-          headerTintColor: colors.laranja,
+          headerStyle: {backgroundColor: '#FF7F27'},
+          headerTintColor: '#FF7F27',
           drawerStyle: {
-            backgroundColor: colors.roxo,
+            backgroundColor: '#80002B',
           },
-          drawerInactiveTintColor: colors.roxo, 
-          drawerActiveTintColor: colors.roxoescuro,
+          drawerInactiveTintColor: '#80002B', 
+          drawerActiveTintColor: '#29000E',
         }}
         >
         <Drawer.Screen name="Escolha" component={Escolha} options={{drawerLabel: "ESCOLHA"}}/>
