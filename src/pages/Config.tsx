@@ -1,5 +1,5 @@
 import React from "react";
-import { Header , ButtonConfig } from "../components";
+import { Header , ButtonConfig , ButtonGaveta } from "../components";
 
 import {
   Container,
@@ -18,6 +18,7 @@ export default function Config({navigation}: CFCTypes) {
     return (
       <Container> 
         <Header/>
+        <ButtonGaveta title="Gaveta" onPress={handleGaveta} />
         <FormRow>
           <TitleCadastrar>Som:</TitleCadastrar>
           <TitleCadastrar>ViverFeliz:</TitleCadastrar>
