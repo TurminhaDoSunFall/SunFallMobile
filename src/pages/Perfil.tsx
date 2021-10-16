@@ -1,13 +1,12 @@
 import React from "react";
 import {
   Container,
-  Menu,
   FormRow,
   Label,
   TitlePerfil,
   TextShow,
 } from "../styles/Perfil";
-import { Button } from "../components";
+import { Button, Header } from "../components";
 import { PerfilTypes } from "../types/ScreenStack.types";
 
 export default function Perfil({navigation}: PerfilTypes) {
@@ -16,8 +15,8 @@ export default function Perfil({navigation}: PerfilTypes) {
   }
   return (
     <Container>
+      <Header/>
       <Button title="Gaveta" onPress={handleGaveta} />
-      <Menu/>
         <TitlePerfil>PERFIL</TitlePerfil>
         <FormRow>
           <Label>Nome:</Label>

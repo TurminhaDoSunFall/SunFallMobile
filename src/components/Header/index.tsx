@@ -12,7 +12,7 @@ export default function Header() {
 const styles = StyleSheet.create({
   header: {
     flexDirection: "row",
-    backgroundColor: "#FF7F27",
+    backgroundColor: "#80002B",
   },
  
   image: {
