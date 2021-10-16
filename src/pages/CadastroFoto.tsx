@@ -19,6 +19,7 @@ export default function CadastroFoto({navigation}: EditareCadastroFotoTypes) {
     return (
       <Container>
         <Header/>
+        <ButtonGaveta title="Gaveta" onPress={handleGaveta} />
         <TitleFoto>Cadastrar Foto</TitleFoto>
         <FormRow>
           <Label>Título</Label>
