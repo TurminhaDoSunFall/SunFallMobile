@@ -5,7 +5,7 @@ import {
     Label,
     TextInput,
     TitleFoto,
-} from "../styles/Editar";
+} from "../styles/MinhaGaleria";
 import { Image } from "react-native";
 import { Button , Header , ButtonGaveta } from "../components";
 import { MinhaGaleriaTypes } from "../types/ScreenStack.types";

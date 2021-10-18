@@ -93,6 +93,7 @@ export type LoginTypes = {
 
 export type MinhaGaleriaStackParamList = {
   Gaveta: undefined
+  Editar: undefined
 }
 type MinhaGaleriaScreenNavigationProp = StackNavigationProp<MinhaGaleriaStackParamList>
 export type MinhaGaleriaTypes = {

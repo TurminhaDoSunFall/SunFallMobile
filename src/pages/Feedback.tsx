@@ -1,5 +1,4 @@
 import React from "react";
-import { useNavigation } from "@react-navigation/core";
 import {
   Container,
   Title,
@@ -33,7 +32,7 @@ export default function Feedback({navigation}: FeedbackTypes) {
           <Label>Descrição do Erro</Label>
           <BotaoReportarProblema placeholder="Descreva o erro que você encontrou, relatando cada detalhe e(opcional) possíveis soluções para o devido problema." value="DescricaoErro"></BotaoReportarProblema>
         </FormRow>
-        <Button title="Submit" onPress={handleFeedback} />
+        <Button title="Enviar" onPress={handleFeedback} />
     </Container>
   );
 }
