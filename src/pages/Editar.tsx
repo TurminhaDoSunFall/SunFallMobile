@@ -16,7 +16,6 @@ export default function Editar({navigation}: EditareCadastroFotoTypes) {
       return (
         <Container>
           <Header/>
-          <ButtonGaveta title="Gaveta" onPress={handleGaveta} />
           <TitleFoto>Editar Foto</TitleFoto>
   
           //titulo da foto

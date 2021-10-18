@@ -1,5 +1,5 @@
 import React from "react";
-//import { useNavigation } from "@react-navigation/core";
+import { Image } from "react-native";
 import { Container, FormRow, Label, TextInput, TitleCadastrar } from "../styles/Cadastrar";
 import { Button, Header } from "../components";
 import { CadastrarTypes } from "../types/ScreenStack.types";
@@ -26,6 +26,7 @@ export default function Cadastrar({navigation}: CadastrarTypes) {
           <TextInput placeholder=""></TextInput>
         </FormRow>
         <Button title="Cadastrar" onPress={handleLogin} />
+        <Image style={{top: -50, width: 150, height: 150}} source={require("../../assets/logo.png")}/>
     </Container>
   );
 }

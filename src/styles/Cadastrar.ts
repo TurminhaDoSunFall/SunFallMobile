@@ -21,10 +21,11 @@ export const TitleCadastrar = styled.Text`
   color: black;
   padding: 5px;
   background-color: ${colors.amarelo};
+  font-family: "Chango_400Regular";
   border-radius: 30px;
   font-weight: 200;
   text-align: center;
-  width: 100px;
+  width: 130px;
   height: 35px;
   margin-bottom: 200px;
   top: 4%;
@@ -45,7 +46,7 @@ export const Label = styled.Text`
   width: 80px;
   height: 35px;
   text-align: center;
-  top: -75%;
+  top: -35%;
 `
 
 export const TextInput = styled.TextInput`

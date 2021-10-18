@@ -7,31 +7,27 @@ import {
     TitleFoto,
 } from "../styles/MinhaGaleria";
 import { Image } from "react-native";
-import { Button , Header , ButtonGaveta } from "../components";
+import { Foto , ButtonEditar } from "../components";
 import { MinhaGaleriaTypes } from "../types/ScreenStack.types";
 
 export default function MinhaGaleria({navigation}: MinhaGaleriaTypes) {
-  function handleGaveta() {
-    navigation.navigate("Gaveta");
-  }
   function handleEditar(){
     navigation.navigate("Editar");
   }
+  
   return (
     
     <Container>
-      <Header/>
-      <ButtonGaveta title="Gaveta" onPress={handleGaveta} />
       <TitleFoto>Minha Galeria</TitleFoto>
 
-      <Image source={require("../../assets/imagemdeexemplo.png")}/>
-
+      <Image style={{top: -100}} source={require("../../assets/imagemdeexemplo.png")}/>
+      <ButtonEditar onPress={handleEditar} />
       <FormRow>
         <Label>Título</Label>
         <TextInput placeholder=""></TextInput>
       </FormRow>
 
-      <Button onPress={handleEditar} />
+      
 
       <FormRow>
        <Label>Descrição</Label>

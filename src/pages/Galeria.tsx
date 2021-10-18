@@ -17,7 +17,6 @@ export default function Galeria({navigation}: GaleriaTypes) {
     return (
       <>
       <Header />
-      <ButtonGaveta title="Gaveta" onPress={handleGaveta} />
       <Container>
         <Title>GALERIA</Title>
         <FlatList data={data} keyExtractor={(item)=>String(item.id)} renderItem={({item})=>(

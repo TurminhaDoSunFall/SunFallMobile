@@ -16,7 +16,6 @@ export default function Detalhes({navigation}: DetalhesTypes) {
     return (
       <Container>
         <Header/>
-        <ButtonGaveta title="Gaveta" onPress={handleGaveta} />
         <Foto image={require("../../assets/por_sol.jpg")}/>
         <FormRow>
           <Label>sLOREM IMPSUM</Label>

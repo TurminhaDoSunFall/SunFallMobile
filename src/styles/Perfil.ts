@@ -39,7 +39,7 @@ export const TitlePerfil = styled.Text`
   width: 80px;
   margin-bottom: 400px;
   height: 35px;
-  top: -10%;
+  top: 3%;
 `
 
 export const FormRow = styled.View`
@@ -58,7 +58,7 @@ export const Label = styled.Text`
   width: 100px;
   height: 30px;
   text-align: center;
-  top: -35%;
+  top: -15%;
 `
 
 export const TextShow = styled.Text`
@@ -69,5 +69,5 @@ export const TextShow = styled.Text`
   border-radius: 30px;
   width: 250px;
   height: 30px;
-  top: -35%;
+  top: -15%;
 `

@@ -45,7 +45,7 @@ export const Label = styled.Text`
   padding: 5px;
   background-color: #FEDF50;
   border-radius: 30px;
-  width: 80px;
+  width: 90px;
   height: 35px;
   text-align: center;
   top: -95%;

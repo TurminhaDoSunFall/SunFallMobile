@@ -18,7 +18,7 @@ export const ButtonStyle = styled.TouchableOpacity<ButtonStyleProps>`
   border-radius: 10px;
   font-weight: 200;
   margin-bottom: 80px;
-  top: -10%;
+  top: 5%;
   width: 90px;
   height: 35px;
   margin-right: 200px;

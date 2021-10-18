@@ -18,7 +18,6 @@ export default function Config({navigation}: CFCTypes) {
     return (
       <Container> 
         <Header/>
-        <ButtonGaveta title="Gaveta" onPress={handleGaveta} />
         <FormRow>
           <TitleCadastrar>Som:</TitleCadastrar>
           <TitleCadastrar>ViverFeliz:</TitleCadastrar>

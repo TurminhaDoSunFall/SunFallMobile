@@ -21,7 +21,6 @@ export default function Feedback({navigation}: FeedbackTypes) {
 
   return (
     <Container>
-      <ButtonGaveta title="Gaveta" onPress={handleGaveta} />
       <Title>FeedBack</Title>
         <TitleCadastrar>Reporte um erro que você encontrou utilizando o site SunFall:</TitleCadastrar>
         <FormRow>

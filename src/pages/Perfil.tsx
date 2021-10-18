@@ -6,6 +6,7 @@ import {
   TitlePerfil,
   TextShow,
 } from "../styles/Perfil";
+import { Image } from "react-native";
 import { Header , ButtonGaveta} from "../components";
 import { PerfilTypes } from "../types/ScreenStack.types";
 
@@ -34,6 +35,7 @@ export default function Perfil({navigation}: PerfilTypes) {
           <Label>Localização: </Label>
           <TextShow>  Panamá</TextShow>
         </FormRow>
+        <Image style={{top: -300, width: 150, height: 150}} source={require("../../assets/logo.png")}/>
     </Container>
   );
 }
