@@ -25,7 +25,7 @@ export default function Cadastrar({navigation}: CadastrarTypes) {
           <Label>Senha: </Label>
           <TextInput placeholder=""></TextInput>
         </FormRow>
-        <Button title="Submit" onPress={handleLogin} />
+        <Button title="Cadastrar" onPress={handleLogin} />
     </Container>
   );
 }
