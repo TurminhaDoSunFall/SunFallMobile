@@ -15,13 +15,12 @@ export const ButtonStyle = styled.TouchableOpacity<ButtonStyleProps>`
   font-size: 18px;
   right: -235px;
   color: black;
-  border-radius: 10px;
   font-weight: 200;
   margin-bottom: 80px;
   top: -10%;
   width: 250px;
   height: 35px;
-  margin-right: 70px;
+  margin-right: 450px;
   align-self: center;
 
   ${(props) => sizeVariations[props.size || "default"]};

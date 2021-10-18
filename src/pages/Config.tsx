@@ -1,30 +1,32 @@
 import React from "react";
-import { Header , ButtonConfig , ButtonGaveta } from "../components";
+import {ButtonConfig} from "../components";
 
 import {
   Container,
   FormRow,
-  TitleCadastrar,
-} from "../styles/Cadastrar";
+  TitleConfig,
+} from "../styles/Config";
 import { CFCTypes } from "../types/ScreenStack.types";
 
 export default function Config({navigation}: CFCTypes) {
-  function handleGaveta() {
-    navigation.navigate("Gaveta");
-  }
-  function handleConfig() {
-    navigation.navigate("Gaveta");
+  
+  function handleEscolha() {
+    navigation.navigate("Escolha");
   }
     return (
       <Container> 
-        <Header/>
         <FormRow>
-          <TitleCadastrar>Som:</TitleCadastrar>
-          <TitleCadastrar>ViverFeliz:</TitleCadastrar>
-          <ButtonConfig title="Delete Account" onPress={handleConfig} />
-          <ButtonConfig title="Log Out" onPress={handleConfig} />
+          <TitleConfig>Som:</TitleConfig>
         </FormRow>
-      
+        <FormRow>
+          <TitleConfig>ViverFeliz:</TitleConfig>
+        </FormRow>
+        <FormRow>
+          <ButtonConfig title="Delete Account" onPress={handleEscolha} />
+        </FormRow>
+        <FormRow>
+          <ButtonConfig title="Log Out" onPress={handleEscolha} />
+        </FormRow> 
     </Container>
 
 

@@ -9,7 +9,7 @@ export const Container = styled.View`
 `
 
 export const TitleCreditos = styled.Text`
-  font-size: 14px;
+  font-size: 20px;
   color: black;
   padding: 5px;
   border-radius: 30px;
@@ -18,7 +18,7 @@ export const TitleCreditos = styled.Text`
   width: 300px;
   height: 35px;
   margin-bottom: 160px;
-  top: 4%;
+  top: 8%;
   font-family: "Chango_400Regular";
 `
 
@@ -37,5 +37,5 @@ export const Label = styled.Text`
   width: 300px;
   height: 35px;
   text-align: center;
-  top: -55%;
+  top: -20%;
 `

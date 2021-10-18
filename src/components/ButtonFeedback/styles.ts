@@ -17,12 +17,11 @@ export const ButtonStyle = styled.TouchableOpacity<ButtonStyleProps>`
   color: black;
   border-radius: 10px;
   font-weight: 200;
-  top: -10%;
-  width: 100px;
+  top: -25%;
+  width: 90px;
   height: 35px;
   margin-right: 250px;
   align-self: center;
-  font-family: "Chango_400Regular";
 
   ${(props) => sizeVariations[props.size || "default"]};
 `
