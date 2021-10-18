@@ -1,5 +1,6 @@
 import React from "react";
-import { Container, Header, TitleFoto, FormRow, Label, TextInput, Image } from "../styles/Editar";
+import { Image } from "react-native";
+import { Container, Header, TitleFoto, FormRow, Label, TextInput } from "../styles/Editar";
 import { Button , ButtonGaveta } from "../components"
 import { EditareCadastroFotoTypes } from "../types/ScreenStack.types";
 

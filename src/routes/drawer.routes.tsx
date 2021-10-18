@@ -14,12 +14,12 @@ export default function Gaveta() {
       <Drawer.Navigator
         screenOptions={{
           headerShown: true,
-          headerStyle: {backgroundColor: '#FF7F27'},
+          headerStyle: {backgroundColor: '#80002B'},
           headerTintColor: '#FF7F27',
           drawerStyle: {
             backgroundColor: '#80002B',
           },
-          drawerInactiveTintColor: '#000000', 
+          drawerInactiveTintColor: '#817171', 
           drawerActiveTintColor: '#29000E',
         }}
         >

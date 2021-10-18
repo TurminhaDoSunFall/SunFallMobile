@@ -26,10 +26,10 @@ export const TitleFoto = styled.Text`
   border-radius: 30px;
   font-weight: 200;
   text-align: center;
-  width: 80px;
+  width: 250px;
   height: 35px;
   margin-bottom: 200px;
-  top: 4%;
+  top: -15%;
 `
 
 export const FormRow = styled.View`
@@ -39,7 +39,7 @@ export const FormRow = styled.View`
 `
 
 export const Label = styled.Text`
-  font-size: 18px;
+  font-size: 15px;
   font-family: "Nunito_400Regular";
   color: black;
   padding: 5px;
@@ -48,11 +48,11 @@ export const Label = styled.Text`
   width: 80px;
   height: 35px;
   text-align: center;
-  top: -35%;
+  top: -95%;
 `
 
 export const TextInput = styled.TextInput`
-  font-size: 18px;
+  font-size: 15px;
   font-family: "Nunito_400Regular";
   color: black;
   padding: 5px;
@@ -60,5 +60,5 @@ export const TextInput = styled.TextInput`
   border-radius: 30px;
   width: 250px;
   height: 35px;
-  top: -35%;
+  top: -95%;
 `

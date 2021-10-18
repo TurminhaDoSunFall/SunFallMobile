@@ -1,7 +1,7 @@
 import React from "react";
 import { createStackNavigator } from "@react-navigation/stack"; 
 import {Cadastrar, Escolha, Login, Perfil} from '../pages';
-import  Gaveta from "./drawer.routes";
+import Gaveta from "./drawer.routes";
 import { LoginStackParamList } from "../types/ScreenStack.types";
 
 const Stack = createStackNavigator <LoginStackParamList>();
