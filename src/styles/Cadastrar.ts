@@ -24,7 +24,7 @@ export const TitleCadastrar = styled.Text`
   border-radius: 30px;
   font-weight: 200;
   text-align: center;
-  width: 80px;
+  width: 100px;
   height: 35px;
   margin-bottom: 200px;
   top: 4%;
@@ -45,7 +45,7 @@ export const Label = styled.Text`
   width: 80px;
   height: 35px;
   text-align: center;
-  top: -35%;
+  top: -75%;
 `
 
 export const TextInput = styled.TextInput`

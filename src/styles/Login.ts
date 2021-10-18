@@ -21,7 +21,7 @@ export const TitleLogin = styled.Text`
   border-radius: 30px;
   font-weight: 200;
   text-align: center;
-  width: 80px;
+  width: 135px;
   height: 35px;
   margin-bottom: 200px;
   top: 4%;

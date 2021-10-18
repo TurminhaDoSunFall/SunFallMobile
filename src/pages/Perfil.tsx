@@ -6,7 +6,7 @@ import {
   TitlePerfil,
   TextShow,
 } from "../styles/Perfil";
-import { Button , Header , ButtonGaveta} from "../components";
+import { Header , ButtonGaveta} from "../components";
 import { PerfilTypes } from "../types/ScreenStack.types";
 
 export default function Perfil({navigation}: PerfilTypes) {
@@ -20,19 +20,19 @@ export default function Perfil({navigation}: PerfilTypes) {
         <TitlePerfil>PERFIL</TitlePerfil>
         <FormRow>
           <Label>Nome:</Label>
-          <TextShow>Ricardo Almeida</TextShow>
+          <TextShow>  Ricardo Almeida</TextShow>
         </FormRow>
         <FormRow>
           <Label>E-mail:</Label>
-          <TextShow>Ricardo_Almeida578@gmail.com</TextShow>
+          <TextShow>  Ricardo_Almeida578@gmail.com</TextShow>
         </FormRow>
         <FormRow>
-          <Label>Nº de uplaods</Label>
-          <TextShow>4732</TextShow>
+          <Label>Uploads: </Label>
+          <TextShow>  4732</TextShow>
         </FormRow>
         <FormRow>
-          <Label>Localização</Label>
-          <TextShow>Panamá</TextShow>
+          <Label>Localização: </Label>
+          <TextShow>  Panamá</TextShow>
         </FormRow>
     </Container>
   );

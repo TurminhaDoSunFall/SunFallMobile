@@ -21,10 +21,10 @@ export const TitleFoto = styled.Text`
   border-radius: 30px;
   font-weight: 200;
   text-align: center;
-  width: 80px;
+  width: 200px;
   height: 35px;
   margin-bottom: 200px;
-  top: 4%;
+  top: -20%;
 `
 
 export const FormRow = styled.View`
@@ -56,4 +56,8 @@ export const TextInput = styled.TextInput`
   width: 250px;
   height: 35px;
   top: -35%;
+`
+export const Image = styled.View`
+  right:0px;
+  bottom:150px;
 `

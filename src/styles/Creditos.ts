@@ -9,34 +9,33 @@ export const Container = styled.View`
 `
 
 export const TitleCreditos = styled.Text`
-  font-size: 18px;
+  font-size: 14px;
   color: black;
   padding: 5px;
   border-radius: 30px;
   font-weight: 200;
   text-align: center;
-  width: 80px;
+  width: 300px;
   height: 35px;
-  margin-bottom: 200px;
+  margin-bottom: 160px;
   top: 4%;
   font-family: "Chango_400Regular";
 `
 
 export const FormRow = styled.View`
   flex-direction: row;
-  margin-top: 20px;
   margin-bottom: 1px;
   text-align: center;
 `
 
 export const Label = styled.Text`
   font-family: "Chango_400Regular";
-  font-size: 18px;
+  font-size: 10px;
   color: ${colors.roxoescuro};
   padding: 5px;
   border-radius: 30px;
-  width: 80px;
+  width: 300px;
   height: 35px;
   text-align: center;
-  top: -35%;
+  top: -55%;
 `

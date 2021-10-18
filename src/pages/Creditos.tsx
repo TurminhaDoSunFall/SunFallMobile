@@ -1,5 +1,4 @@
 import React from "react";
-import { useNavigation } from "@react-navigation/core";
 import { Container, FormRow, Label, TitleCreditos } from "../styles/Creditos";
 import { Header , ButtonGaveta } from "../components";
 import { CFCTypes } from "../types/ScreenStack.types";
@@ -11,7 +10,6 @@ export default function Creditos({navigation}: CFCTypes) {
   return (
     <Container>
       <Header/> 
-      <ButtonGaveta title="Gaveta" onPress={handleGaveta} />
         <TitleCreditos>CRÉDITOS</TitleCreditos>
         <FormRow><Label>ISIS S. P.</Label></FormRow>
         <FormRow><Label> JOÃO MARCOS S. H</Label></FormRow>
@@ -22,6 +20,7 @@ export default function Creditos({navigation}: CFCTypes) {
         <FormRow><Label>AGRADECIMENTOS</Label></FormRow>
         <FormRow><Label>LAZIN</Label></FormRow>
         <FormRow><Label>O SOL</Label></FormRow>
+        <FormRow><Label>O GALO DO VIZINHO DO PEDRO</Label></FormRow>
         <FormRow><Label>NOSSAS MÃES</Label></FormRow>
         <FormRow><Label>E OS PAIS TAMBÉM (PRA NÃO TER CIÚME)</Label></FormRow>
     </Container>

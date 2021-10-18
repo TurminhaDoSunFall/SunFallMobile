@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, TitleFoto, FormRow, Label, TextInput} from "../styles/CadastroFoto";
-import { Button, Header, ButtonGaveta , ButtonCamera} from "../components"
+import { Header, ButtonGaveta , ButtonCamera , ButtonCadastrarFoto } from "../components"
 import { EditareCadastroFotoTypes } from "../types/ScreenStack.types";
 
 export default function CadastroFoto({navigation}: EditareCadastroFotoTypes) {
@@ -21,11 +21,11 @@ export default function CadastroFoto({navigation}: EditareCadastroFotoTypes) {
         <Header/>
         <ButtonGaveta title="Gaveta" onPress={handleGaveta} />
         <TitleFoto>Cadastrar Foto</TitleFoto>
+        <ButtonCamera title="Tirar Foto" onPress={handleCamera} />
         <FormRow>
           <Label>Título</Label>
           <TextInput placeholder=""></TextInput>
         </FormRow>
-        <ButtonCamera title="Tirar Foto" onPress={handleCamera} />
         <FormRow>
           <Label>Descrição</Label>
           <TextInput placeholder=""></TextInput>
@@ -34,7 +34,7 @@ export default function CadastroFoto({navigation}: EditareCadastroFotoTypes) {
           <Label>Senha: </Label>
           <TextInput placeholder=""></TextInput>
         </FormRow>
-        <Button title="Submit" onPress={handleMinhaGaleria} />
+        <ButtonCadastrarFoto title="Cadastrar" onPress={handleMinhaGaleria} />
       </Container>
   );
 }
