@@ -17,12 +17,12 @@ export default function Creditos({navigation}: CFCTypes) {
         <FormRow><Label>_________________</Label></FormRow>
         <FormRow><Label>CEFET-MG</Label></FormRow>
         <FormRow><Label>2021</Label></FormRow>
-        <FormRow><Label>AGRADECIMENTOS</Label></FormRow>
+        <FormRow><Label>AGRADECIMENTOS:</Label></FormRow>
         <FormRow><Label>LAZIN</Label></FormRow>
         <FormRow><Label>O SOL</Label></FormRow>
         <FormRow><Label>O GALO DO VIZINHO DO PEDRO</Label></FormRow>
         <FormRow><Label>NOSSAS MÃES</Label></FormRow>
-        <FormRow><Label>E OS PAIS TAMBÉM (PRA NÃO TER CIÚME)</Label></FormRow>
+        <FormRow><Label>E OS PAIS TAMBÉM (PRA NÃO TER CIÚMES)</Label></FormRow>
     </Container>
   );
 }

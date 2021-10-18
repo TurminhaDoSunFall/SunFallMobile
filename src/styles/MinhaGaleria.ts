@@ -57,7 +57,3 @@ export const TextInput = styled.TextInput`
   height: 35px;
   top: -35%;
 `
-export const Image = styled.View`
-  right:0px;
-  bottom:150px;
-`

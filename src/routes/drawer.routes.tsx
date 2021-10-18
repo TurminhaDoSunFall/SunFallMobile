@@ -1,7 +1,7 @@
 import React from 'react';
 import { Text, StyleSheet } from "react-native";
 import { createDrawerNavigator } from '@react-navigation/drawer';
-import { Creditos , Escolha, Feedback, Perfil , Galeria, MinhaGaleria, CadastroFoto, Config, Camera} from '../pages';
+import { Creditos , Escolha, Feedback, Perfil , Galeria, MinhaGaleria, CadastroFoto, Config, Camera, Detalhes, Editar} from '../pages';
 import colors from '../styles/Colors';
 
 
@@ -32,6 +32,10 @@ export default function Gaveta() {
         <Drawer.Screen name="Creditos" component={Creditos} options={{drawerLabel: "CRÉDITOS"}} />
         <Drawer.Screen name="Configurações" component={Config} options={{drawerLabel: "CONFIGURAÇÕES"}}/>
         <Drawer.Screen name="Camera" component={Camera} options={{drawerLabel: "CÂMERA"}}/>
+        <Drawer.Screen name="Detalhes" component={Detalhes} options={{drawerLabel: "DETALHES"}}/>
+        <Drawer.Screen name="Editar" component={Editar} options={{drawerLabel: "EDITAR"}}/>
+
+
       </Drawer.Navigator>
   );
 }

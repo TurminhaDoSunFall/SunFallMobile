@@ -19,6 +19,8 @@ export type CadastrarTypes = {
 //creditos & config 
 export type CFCStackParamList = {
   Gaveta: undefined
+  Escolha: undefined 
+
 }
 type CFCScreenNavigationProp = StackNavigationProp<CFCStackParamList>
 export type CFCTypes = {

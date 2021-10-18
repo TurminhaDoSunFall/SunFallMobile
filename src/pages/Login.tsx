@@ -29,7 +29,7 @@ export default function Login({navigation}: LoginTypes) {
           <Label>Senha: </Label>
           <TextInput placeholder="descobriramasenha"></TextInput>
         </FormRow>
-        <Button title="Submit" onPress={handlePerfil} />
+        <Button title="Entrar" onPress={handlePerfil} />
     </Container>
   );
 }

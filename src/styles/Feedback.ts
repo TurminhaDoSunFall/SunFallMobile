@@ -9,7 +9,7 @@ export const BotaoReportarProblema = styled.TextInput`
   border-radius: 30px;
   width: 250px;
   height: 150px;
-  top: -100%;
+  top: -50%;
 `
 
 export const Container = styled.View`
@@ -21,16 +21,17 @@ export const Container = styled.View`
 
 export const Title = styled.Text`
   font-size: 18px;
+  font-family: "Chango_400Regular";
   color: black;
   padding: 5px;
   background-color: ${colors.amarelo};
   border-radius: 30px;
   font-weight: 200;
   text-align: center;
-  width: 100px;
+  width: 160px;
   height: 35px;
   margin-bottom: 200px;
-  top: -5%;
+  top: 20%;
 `
 
 export const TitleCadastrar = styled.Text`
@@ -44,7 +45,7 @@ export const TitleCadastrar = styled.Text`
   width: 300px;
   height: 50px;
   margin-bottom: 200px;
-  top: -30%;
+  top: -5%;
 `
 
 export const FormRow = styled.View`
@@ -62,7 +63,7 @@ export const Label = styled.Text`
   width: 90px;
   height: 35px;
   text-align: center;
-  top: -100%;
+  top: -50%;
 `
 
 export const TextInput = styled.TextInput`
@@ -73,5 +74,5 @@ export const TextInput = styled.TextInput`
   border-radius: 30px;
   width: 250px;
   height: 35px;
-  top: -100%;
+  top: -50%;
 `

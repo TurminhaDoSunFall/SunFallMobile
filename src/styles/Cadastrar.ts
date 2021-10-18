@@ -45,7 +45,7 @@ export const Label = styled.Text`
   width: 80px;
   height: 35px;
   text-align: center;
-  top: -75%;
+  top: -35%;
 `
 
 export const TextInput = styled.TextInput`

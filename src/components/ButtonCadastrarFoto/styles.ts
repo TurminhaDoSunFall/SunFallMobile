@@ -14,10 +14,10 @@ export const ButtonStyle = styled.TouchableOpacity<ButtonStyleProps>`
   font-size: 15px;
   right: -235px;
   color: black;
-  border-radius: 10px;
+  border-radius: 15px;
   font-weight: 200;
-  top: -50%;
-  width: 200px;
+  top: -20%;
+  width: 100px;
   height: 35px;
   margin-right: 250px;
   align-self: center;
