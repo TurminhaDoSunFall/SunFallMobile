@@ -8,11 +8,12 @@ export const Title = styled.Text`
   font-weight: 500;
   margin-bottom: 100px;
   text-align: center;
+  top: 8%;
 `
 
 export const Foto = styled.Image `
     height: auto;
-    width: fit-content;
+    width: auto;
 `
 
 export const Container = styled.View`
@@ -35,8 +36,9 @@ export const Label = styled.Text`
   color: ${colors.roxo};
   padding: 5px;
   border-radius: 30px;
-  width: 80px;
+  width: 400px;
   height: 35px;
   text-align: center;
-  top: -35%;
+  top: -23%;
+  margin
 `

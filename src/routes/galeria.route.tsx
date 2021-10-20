@@ -1,9 +1,10 @@
 import React from "react";
 import { createStackNavigator } from "@react-navigation/stack"; 
-import { Detalhes } from '../pages';
-import Gaveta from "./drawer.routes";
+import { Detalhes, Galeria } from '../pages';
+import { GaleriaStackParamList } from "../types/ScreenStack.types";
 
-const Stack = createStackNavigator();
+
+const Stack = createStackNavigator <GaleriaStackParamList>();
 
 export default function GaleriaRoute() {
   return (
@@ -13,7 +14,7 @@ export default function GaleriaRoute() {
       }}
     >
       <Stack.Screen name="Detalhes" component={Detalhes} />
-      <Stack.Screen name="Gaveta" component={Gaveta} />
+      <Stack.Screen name="Galeria" component={Galeria} />
     </Stack.Navigator>
     
   );

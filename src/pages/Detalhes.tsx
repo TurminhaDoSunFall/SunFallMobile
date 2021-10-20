@@ -1,24 +1,26 @@
 import React from "react";
-import { Header, Foto , ButtonGaveta , Button } from "../components";
+import { Foto , Button } from "../components";
 import { DetalhesTypes } from "../types/ScreenStack.types";
 import { Container, FormRow, Label } from "../styles/Detalhes";
 //import { DetalhesProps } from "../interfaces/Detalhes.interface";
 
 
 export default function Detalhes({navigation}: DetalhesTypes) {
-    //const { titulo, foto, descricao, nome_user } = route.params as DetalhesProps;
-    function handleGaveta() {
-      navigation.navigate("Gaveta");
-    }
+    //const { titulo, foto, descricao, nome_user } = route.params as DetalhesProps
     function handleGaleria() {
       navigation.navigate("Galeria")
     }
     return (
       <Container>
-        <Header/>
-        <Foto image={require("../../assets/por_sol.jpg")}/>
+        <Foto image={require("../../assets/imagemdeexemplo.png")}/>
         <FormRow>
-          <Label>sLOREM IMPSUM</Label>
+          <Label>Pôr do sol genérico</Label>
+        </FormRow>
+        <FormRow>
+          <Label>Um bonito por do sol 2.0</Label>
+        </FormRow>
+        <FormRow>
+          <Label>Joaoozinho1810</Label>
         </FormRow>
         <Button title="Voltar" onPress={handleGaleria} />
       </Container>

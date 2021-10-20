@@ -10,14 +10,12 @@ const sizeVariations = {
 }
 
 export const ButtonStyle = styled.TouchableOpacity<ButtonStyleProps>`
-  background-color: #FEDF50;
   margin-top: 10px;
   font-size: 18px;
   right: -235px;
   color: black;
   font-weight: 200;
   margin-bottom: 80px;
-  top: -10%;
   width: 250px;
   height: 35px;
   margin-right: 450px;
@@ -26,6 +24,7 @@ export const ButtonStyle = styled.TouchableOpacity<ButtonStyleProps>`
   ${(props) => sizeVariations[props.size || "default"]};
 `
 export const ButtonStyleText = styled.Text`
+  font-family: "Chango_400Regular";
   color: black;
   text-align: center;
   padding: 5px;

@@ -1,9 +1,9 @@
 import React from "react";
 import { Container, TitleFoto, FormRow, Label, TextInput} from "../styles/CadastroFoto";
 import { Header, ButtonCamera , ButtonCadastrarFoto } from "../components"
-import { EditareCadastroFotoTypes } from "../types/ScreenStack.types";
+import { CadastroFotoTypes } from "../types/ScreenStack.types";
 
-export default function CadastroFoto({navigation}: EditareCadastroFotoTypes) {
+export default function CadastroFoto({navigation}: CadastroFotoTypes) {
   
   function handleMinhaGaleria() {
     navigation.navigate("MinhaGaleria");
@@ -18,7 +18,7 @@ export default function CadastroFoto({navigation}: EditareCadastroFotoTypes) {
       <Container>
         <Header/>
         <TitleFoto>Cadastrar Foto</TitleFoto>
-        <ButtonCamera title="Tirar Foto" onPress={handleCamera} />
+        <ButtonCamera title="📷" onPress={handleCamera} />
         <FormRow>
           <Label>Título</Label>
           <TextInput placeholder=""></TextInput>

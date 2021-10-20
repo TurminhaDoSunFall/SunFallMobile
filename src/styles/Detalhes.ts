@@ -22,8 +22,8 @@ export const Label = styled.Text`
   color: ${colors.amarelo};
   padding: 5px;
   border-radius: 30px;
-  width: 80px;
+  width: 500px;
   height: 35px;
   text-align: center;
-  top: -35%;
+  top: -20%;
 `

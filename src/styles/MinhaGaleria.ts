@@ -40,7 +40,7 @@ export const Label = styled.Text`
   padding: 5px;
   background-color: #FEDF50;
   border-radius: 30px;
-  width: 80px;
+  width: 85px;
   height: 35px;
   text-align: center;
   top: -15%;
@@ -53,7 +53,7 @@ export const TextInput = styled.TextInput`
   padding: 5px;
   background-color: #FEDF50;
   border-radius: 30px;
-  width: 250px;
+  width: 300px;
   height: 35px;
   top: -15%;
 `

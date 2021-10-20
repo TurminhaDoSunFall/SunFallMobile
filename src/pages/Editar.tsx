@@ -1,40 +1,26 @@
 import React from "react";
 import { Image } from "react-native";
-import { Container, Header, TitleFoto, FormRow, Label, TextInput } from "../styles/Editar";
-import { Button , ButtonGaveta } from "../components"
-import { EditareCadastroFotoTypes } from "../types/ScreenStack.types";
+import { Container, TitleFoto, FormRow, Label, TextInput } from "../styles/Editar";
+import { Button } from "../components"
+import { EditarTypes } from "../types/ScreenStack.types";
 
-export default function Editar({navigation}: EditareCadastroFotoTypes) {
-    
-  function handleGaveta() {
-        navigation.navigate("Gaveta");
-      }
-    
+export default function Editar({navigation}: EditarTypes) {
       function handleMinhaGaleria() {
         navigation.navigate("MinhaGaleria");
       }
       return (
         <Container>
-          <Header/>
           <TitleFoto>Editar Foto</TitleFoto>
-  
-          //titulo da foto
           <FormRow>
-            <Label>Título</Label>
+            <Label>Título: </Label>
              <TextInput placeholder=""></TextInput>
           </FormRow>
-  
-          //Arquivo da foto que veio de Minha Galeria
-          <Image source={require("../../assets/imagemdeexemplo.png")}/>
-  
-          //Descricao da foto
           <FormRow>
-            <Label>Descrição</Label>
+            <Label>Descrição: </Label>
             <TextInput placeholder=""></TextInput>
           </FormRow>
-          
-          //Botton salvar que leva até a MinhaGaleria
-          <Button title="Salvar" onPress={handleMinhaGaleria} />
+          <Image style={{top: -100}} source={require("../../assets/imagemdeexemplo.png")}/>
+          <Button title="Salvar" onPress={handleMinhaGaleria}/>
         </Container>
     );
   }

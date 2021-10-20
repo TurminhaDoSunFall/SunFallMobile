@@ -19,7 +19,7 @@ export const ButtonStyle = styled.TouchableOpacity<ButtonStyleProps>`
   font-weight: 200;
   margin-bottom: 80px;
   top: -18%;
-  width: 120px;
+  width: 60px;
   height: 35px;
   margin-right: 250px;
   
