@@ -21,12 +21,8 @@ export default function Config({navigation}: CFCTypes) {
         <FormRow>
           <TitleConfig>ViverFeliz:</TitleConfig>
         </FormRow>
-        <FormRow>
           <ButtonConfig title="Delete Account" onPress={handleEscolha} />
-        </FormRow>
-        <FormRow>
-          <ButtonConfig title="Log Out" onPress={handleEscolha} />
-        </FormRow> 
+          <ButtonConfig title="Log Out" onPress={handleEscolha} />  
     </Container>
 
 

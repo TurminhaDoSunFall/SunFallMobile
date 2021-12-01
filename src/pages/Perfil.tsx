@@ -29,7 +29,7 @@ export default function Perfil({navigation}: PerfilTypes) {
         </FormRow>
         <FormRow>
           <Label>Uploads: </Label>
-          <TextShow>  4732</TextShow>
+          <TextShow> 4732</TextShow>
         </FormRow>
         <Image style={{top: -300, width: 150, height: 150}} source={require("../../assets/logo.png")}/>
     </Container>

@@ -7,10 +7,6 @@ export const Container = styled.View`
   justify-content: center;
 `
 
-export const Header = styled.View`
-  background-color: #80002B;
-  height: 85px;
-`
 
 export const TitleFoto = styled.Text`
   font-size: 18px;
@@ -21,7 +17,7 @@ export const TitleFoto = styled.Text`
   border-radius: 30px;
   font-weight: 200;
   text-align: center;
-  width: 80px;
+  width: 120px;
   height: 35px;
   margin-bottom: 200px;
   top: 4%;
@@ -40,7 +36,7 @@ export const Label = styled.Text`
   padding: 5px;
   background-color: #FEDF50;
   border-radius: 30px;
-  width: 80px;
+  width: 105px;
   height: 35px;
   text-align: center;
   top: -35%;
@@ -53,7 +49,7 @@ export const TextInput = styled.TextInput`
   padding: 5px;
   background-color: #FEDF50;
   border-radius: 30px;
-  width: 250px;
+  width: 280px;
   height: 35px;
   top: -35%;
 `

@@ -8,25 +8,17 @@ export const Container = styled.View`
   justify-content: center;
 `
 
-export const Title = styled.Text`
-  font-size: 24px;
-  color: black;
-  font-weight: 500;
-  margin-bottom: 100px;
-  text-align: center;
-`
 
 export const TitleConfig = styled.Text`
   font-size: 18px;
   color: black;
   padding: 5px;
-  background-color: ${colors.amarelo};
   font-weight: 200;
   text-align: center;
   width: 100px;
   height: 35px;
   margin-bottom: 200px;
-  top: 4%;
+  top: 40%;
 `
 
 export const FormRow = styled.View`
@@ -39,17 +31,17 @@ export const Label = styled.Text`
   font-size: 18px;
   color: black;
   padding: 5px;
-  width: 80px;
+  width: 100px;
   height: 35px;
   text-align: center;
-  top: -35%;
+
 `
 
 export const TextInput = styled.TextInput`
   font-size: 18px;
   color: black;
   padding: 5px;
-  width: 250px;
+  width: 300px;
   height: 35px;
   top: -35%;
 `

@@ -1,8 +1,9 @@
 import { StackNavigationProp } from "@react-navigation/stack"
+import { ImageSourcePropType } from 'react-native'
 
 
 
-
+//Cadastrar
 export type CadastrarStackParamList = {
   Escolha: undefined
   Gaveta: undefined
@@ -28,27 +29,45 @@ export type CFCTypes = {
 }
 
 
-
+//Detalhes
 export type DetalhesStackParamList = {
   Galeria: undefined
   Gaveta: undefined
+  Detalhes: {
+    id: Number
+    foto: ImageSourcePropType
+    titulo: string
+    descricao: string
+    nome_user: string 
+}
 }
 type DetalhesScreenNavigationProp = StackNavigationProp<DetalhesStackParamList>
 export type DetalhesTypes = {
   navigation: DetalhesScreenNavigationProp
 }
 
+//EditarStack
+export type EditarStackParamList = {
+  Gaveta: undefined
+  MinhaGaleria: undefined
+  Editar: undefined
+}
+type EditarScreenNavigationProp = StackNavigationProp<EditarStackParamList>
+export type EditarTypes = {
+  navigation: EditarScreenNavigationProp
+}
 
 
-//EditareCadastroFotoStack
-export type EditareCadastroFotoStackParamList = {
+
+//CadastroFotoStack
+export type CadastroFotoStackParamList = {
   Gaveta: undefined
   MinhaGaleria: undefined
   Camera: undefined
 }
-type EditareCadastroFotoScreenNavigationProp = StackNavigationProp<EditareCadastroFotoStackParamList>
-export type EditareCadastroFotoTypes = {
-  navigation: EditareCadastroFotoScreenNavigationProp
+type CadastroFotoScreenNavigationProp = StackNavigationProp<CadastroFotoStackParamList>
+export type CadastroFotoTypes = {
+  navigation: CadastroFotoScreenNavigationProp
 }
 
 
@@ -66,10 +85,18 @@ export type FeedbackTypes = {
 
 
 
-
+//Galeria
 export type GaleriaStackParamList = {
-  Gaveta: undefined
-  Detalhes: undefined
+ Galeria: undefined
+ Gaveta: undefined
+ Detalhes: {
+     id: Number
+     foto: ImageSourcePropType
+     titulo: string
+     descricao: string
+     nome_user: string 
+ }
+  
 }
 type GaleriaScreenNavigationProp = StackNavigationProp<GaleriaStackParamList>
 export type GaleriaTypes = {
@@ -92,7 +119,7 @@ export type LoginTypes = {
 }
 
 
-
+//MinhaGaleria
 export type MinhaGaleriaStackParamList = {
   Gaveta: undefined
   Editar: undefined
@@ -103,7 +130,7 @@ export type MinhaGaleriaTypes = {
 }
 
 
-
+//Perfil
 export type PerfilStackParamList = {
   Gaveta: undefined
   Login: undefined

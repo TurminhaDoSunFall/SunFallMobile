@@ -19,23 +19,22 @@ export default function Gaveta() {
           drawerStyle: {
             backgroundColor: '#80002B',
           },
-          drawerInactiveTintColor: '#817171', 
+          drawerInactiveTintColor: '#FF7F27', 
           drawerActiveTintColor: '#29000E',
         }}
         >
-        <Drawer.Screen name="Escolha" component={Escolha} options={{drawerLabel: "ESCOLHA"}}/>
         <Drawer.Screen name="Perfil" component={Perfil} options={{drawerLabel: "PERFIL"}} />
-        <Drawer.Screen name="Galeria" component={Galeria} options={{drawerLabel: "GALERIA"}}/>
+        <Drawer.Screen name="Escolha" component={Escolha} options={{drawerLabel: "ESCOLHA"}}/>
         <Drawer.Screen name="Minha Galeria" component={MinhaGaleria} options={{drawerLabel: "MINHA GALERIA"}} />
         <Drawer.Screen name="Cadastrar foto" component={CadastroFoto} options={{drawerLabel: "CADASTRAR FOTO"}}/>
+        <Drawer.Screen name="Camera" component={Camera} options={{drawerLabel: "CÂMERA"}}/>
+        <Drawer.Screen name="Galeria" component={Galeria} options={{drawerLabel: "GALERIA"}}/>
+        <Drawer.Screen name="Detalhes" component={Detalhes} options={{drawerLabel: "DETALHES"}}/>
+        <Drawer.Screen name="Editar" component={Editar} options={{drawerLabel: "EDITAR"}}/>
         <Drawer.Screen name="Feedback" component={Feedback} options={{drawerLabel: "FEEDBACK"}} />
         <Drawer.Screen name="Creditos" component={Creditos} options={{drawerLabel: "CRÉDITOS"}} />
         <Drawer.Screen name="Configurações" component={Config} options={{drawerLabel: "CONFIGURAÇÕES"}}/>
-        <Drawer.Screen name="Camera" component={Camera} options={{drawerLabel: "CÂMERA"}}/>
-        <Drawer.Screen name="Detalhes" component={Detalhes} options={{drawerLabel: "DETALHES"}}/>
-        <Drawer.Screen name="Editar" component={Editar} options={{drawerLabel: "EDITAR"}}/>
-
-
       </Drawer.Navigator>
   );
 }
+
