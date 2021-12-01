@@ -3,7 +3,7 @@ import { Header, Foto , ButtonGaveta } from "../components";
 import { FormRow, Title, Label, Container } from "../styles/Galeria";
 import { GaleriaTypes } from "../types/ScreenStack.types";
 import { FlatList, View } from "react-native";
-import data from "../services/data";
+import data from "../services/data_antigo";
 //import { DetalhesProps } from "../interfaces/Detalhes.interface";
 
 

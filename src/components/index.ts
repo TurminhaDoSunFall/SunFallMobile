@@ -7,5 +7,7 @@ export { default as ButtonConfig} from './ButtonConfig'
 export { default as ButtonFeedback} from './ButtonFeedback'
 export { default as ButtonCadastrarFoto} from './ButtonCadastrarFoto'
 export { default as ButtonEditar} from './ButtonEditar'
-export { default as Header} from './Header'
 export { default as Foto} from './Foto'
+export { default as Header} from './Header'
+export { default as Loading} from './Loading'
+
