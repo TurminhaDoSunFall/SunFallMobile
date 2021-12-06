@@ -1,5 +1,6 @@
 import { StackNavigationProp } from "@react-navigation/stack"
 import { ImageSourcePropType } from 'react-native'
+import { PerfilProps } from "../interfaces/Perfil.interface"
 
 
 
@@ -134,6 +135,7 @@ export type MinhaGaleriaTypes = {
 export type PerfilStackParamList = {
   Gaveta: undefined
   Login: undefined
+  Perfil: PerfilProps
 }
 type PerfilScreenNavigationProp = StackNavigationProp<PerfilStackParamList>
 export type PerfilTypes = {
