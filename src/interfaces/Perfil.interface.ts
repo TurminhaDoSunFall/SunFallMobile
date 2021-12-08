@@ -1,5 +1,3 @@
-import { ImageSourcePropType } from 'react-native'
-
 export interface PerfilProps {
   id: number
   name: string
@@ -16,7 +14,6 @@ export interface IPerfil {
     name: string,
     email: string,
     uploads: number
-
   }
 }
 

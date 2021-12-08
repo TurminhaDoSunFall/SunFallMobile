@@ -18,6 +18,7 @@ export interface IRegister {
         id: number,
         name: string,
         email: string,
+        uploads: number
       }
     }
   }
@@ -28,6 +29,7 @@ export interface IRegister {
       id: number,
       name: string,
       email: string,
+      uploads: number
     }
   }
   
@@ -40,5 +42,6 @@ export interface IRegister {
       id: number,
       name: string,
       email: string,
+      uploads: number
     }
   }
