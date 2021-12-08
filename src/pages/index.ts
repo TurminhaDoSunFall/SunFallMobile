@@ -11,6 +11,7 @@ export {default as MinhaGaleria} from "./MinhaGaleria";
 export {default as Login} from "./Login";
 export {default as Perfil} from "./Perfil";
 export {default as Camera} from "./Camera";
+export {default as Sair} from "./Sair";
 
 
 
