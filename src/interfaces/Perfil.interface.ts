@@ -14,13 +14,12 @@ export interface IPerfil {
     name: string,
     email: string,
     uploads: number
-  }
+  }[]
 }
 
 export interface IInterfacePerfil {
   id: number
   name: string
   email: string
-  data: string
   uploads: number
 }
