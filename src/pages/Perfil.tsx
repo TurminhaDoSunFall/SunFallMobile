@@ -21,7 +21,7 @@ import { AxiosError } from "axios";
 export default function Perfil({navigation}: PerfilTypes) {
   const { user } = useAuth();
   const [isLoading, setIsLoading] = useState(true);
-  const [data, setData] = useState<IInterfacePerfil[]>();
+  const [data, setData] = useState<IInterfacePerfil[]>()
 
   function handlePerfil(item: PerfilProps) {
     navigation.navigate("Perfil", { ...item });
@@ -31,7 +31,7 @@ export default function Perfil({navigation}: PerfilTypes) {
     const fetchData = async () => {
       try {
         const response = await apiPerfil.index();
-        setData(response.data);
+        setData(response.data.data);
       } catch (error) {
         const err = error as AxiosError;
         const data = err.response?.data as IPerfil;
@@ -63,21 +63,15 @@ export default function Perfil({navigation}: PerfilTypes) {
             <TitlePerfil>PERFIL</TitlePerfil>
             <FormRow>
               <Label>Nome:</Label>
-              <TextShow 
-                name={user?.name}>  
-              </TextShow>
+              <TextShow > {user?.name} </TextShow>
             </FormRow>
             <FormRow>
               <Label>E-mail:</Label>
-              <TextShow 
-                email={user?.email}>
-              </TextShow>
+              <TextShow > {user?.email} </TextShow>
             </FormRow>
             <FormRow>
               <Label>Uploads: </Label>
-              <TextShow
-                 uploads={user?.uploads}
-                 ></TextShow>
+              <TextShow> {user?.uploads} </TextShow>
             </FormRow>
             <Image style={{top: -300, width: 150, height: 150}} source={require("../../assets/logo.png")}/>
         </Container>
